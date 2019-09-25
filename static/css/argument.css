@@ -1,6 +1,7 @@
 .argument-wrapper .argument-nav {
   width: 100%;
-  height: 72px; }
+  height: 72px;
+  box-shadow: 0 6px 13px 2px rgba(71, 71, 71, 0.1); }
   .argument-wrapper .argument-nav .agreement-nav-box {
     margin: 0 50px; }
     .argument-wrapper .argument-nav .agreement-nav-box .logo-box {
@@ -22,5 +23,25 @@
         color: #4D555D; }
     .argument-wrapper .argument-nav .agreement-nav-box .login-hint-cont {
       float: right; }
+      .argument-wrapper .argument-nav .agreement-nav-box .login-hint-cont p {
+        line-height: 72px;
+        font-size: 16px;
+        color: #71777D; }
+        .argument-wrapper .argument-nav .agreement-nav-box .login-hint-cont p a {
+          color: #81D8D0; }
+.argument-wrapper .agreement-box {
+  padding-top: 60px;
+  margin: 0 auto; }
+  .argument-wrapper .agreement-box .agreement-cont {
+    margin: 0 150px; }
+    .argument-wrapper .agreement-box .agreement-cont .agreement-l {
+      text-align: center;
+      color: #81D8D0; }
+      .argument-wrapper .agreement-box .agreement-cont .agreement-l .tit {
+        font-size: 30px;
+        margin-bottom: 30px; }
+      .argument-wrapper .agreement-box .agreement-cont .agreement-l .tit-sub {
+        font-size: 24px;
+        font-weight: bold; }
 
 /*# sourceMappingURL=argument.css.map */
