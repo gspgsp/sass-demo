@@ -17,7 +17,7 @@
       .argument-wrapper .argument-nav .agreement-nav-box .logo-box p {
         float: left;
         line-height: 72px;
-        letter-spacing: 3px;
+        letter-spacing: 2px;
         margin-left: 36px;
         font-size: 16px;
         color: #4D555D; }
@@ -43,5 +43,24 @@
       .argument-wrapper .agreement-box .agreement-cont .agreement-l .tit-sub {
         font-size: 24px;
         font-weight: bold; }
+    .argument-wrapper .agreement-box .agreement-cont .agreement-r {
+      width: 100%; }
+      .argument-wrapper .agreement-box .agreement-cont .agreement-r p {
+        font-size: 14px;
+        line-height: 24px;
+        color: #71777D;
+        margin-bottom: 20px; }
+        .argument-wrapper .agreement-box .agreement-cont .agreement-r p .r-b {
+          color: #c41f1f; }
+      .argument-wrapper .agreement-box .agreement-cont .agreement-r h2 {
+        font-size: 14px;
+        color: #4D555D;
+        margin-bottom: 15px; }
+      .argument-wrapper .agreement-box .agreement-cont .agreement-r h3 {
+        margin-bottom: 22px;
+        color: #4D555D;
+        font-size: 14px; }
+      .argument-wrapper .agreement-box .agreement-cont .agreement-r .r-b {
+        color: #c41f1f; }
 
 /*# sourceMappingURL=argument.css.map */
