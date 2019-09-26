@@ -26,4 +26,48 @@ body {
 .cont-wd {
   width: 1200px; }
 
+.clear:after {
+  content: '';
+  width: 0;
+  height: 0;
+  display: block;
+  clear: both;
+  overflow: hidden; }
+
+.fz-14 {
+  font-size: 14px; }
+
+.align-center {
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -webkit-align-items: center;
+  justify-content: center; }
+
+.few-foot-wrap {
+  width: 100%;
+  background: #070918;
+  margin-top: 100px; }
+  .few-foot-wrap .few-foot-cont {
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    color: #c8c8c8; }
+    .few-foot-wrap .few-foot-cont .few-foot-cont-l .few-foot-nav li {
+      float: left;
+      margin-right: 32px; }
+      .few-foot-wrap .few-foot-cont .few-foot-cont-l .few-foot-nav li a {
+        font-size: 12px;
+        color: #c8c8c8; }
+    .few-foot-wrap .few-foot-cont .few-foot-cont-l .records-cont {
+      font-size: 12px;
+      margin-top: 14px; }
+    .few-foot-wrap .few-foot-cont .few-foot-cont-r .icon-list {
+      width: 32px;
+      height: 32px;
+      background: #767676;
+      border-radius: 50px;
+      float: left; }
+
 /*# sourceMappingURL=public.css.map */
