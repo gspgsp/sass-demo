@@ -76,6 +76,7 @@ body {
       position: relative; }
       .few-foot-wrap .few-foot-cont .few-foot-cont-r .icon-list img {
         width: 24px;
+        height: 24px;
         margin: 0 auto;
         display: block; }
       .few-foot-wrap .few-foot-cont .few-foot-cont-r .icon-list .code-cont {
@@ -83,12 +84,12 @@ body {
         padding: 8px 0;
         background: white;
         position: absolute;
-        top: -210px;
+        top: -200px;
         left: -74px;
         display: none; }
         .few-foot-wrap .few-foot-cont .few-foot-cont-r .icon-list .code-cont .code-cont-img {
-          width: 128px;
-          height: 128px;
+          width: 124px;
+          height: 124px;
           display: block; }
         .few-foot-wrap .few-foot-cont .few-foot-cont-r .icon-list .code-cont p {
           font-size: 12px;
@@ -97,7 +98,7 @@ body {
       .few-foot-wrap .few-foot-cont .few-foot-cont-r .icon-list .san-img {
         position: absolute;
         width: 20px;
-        bottom: -10px;
+        bottom: -13px;
         left: 80px; }
       .few-foot-wrap .few-foot-cont .few-foot-cont-r .icon-list .adress-cont {
         width: 180px;
@@ -112,9 +113,24 @@ body {
         .few-foot-wrap .few-foot-cont .few-foot-cont-r .icon-list .adress-cont p {
           font-size: 12px;
           color: #070918; }
+      .few-foot-wrap .few-foot-cont .few-foot-cont-r .icon-list .email-cont {
+        width: 150px;
+        background: white;
+        padding: 12px;
+        position: absolute;
+        left: -70px;
+        top: -70px;
+        display: none; }
+        .few-foot-wrap .few-foot-cont .few-foot-cont-r .icon-list .email-cont .san-img {
+          left: 75px; }
+        .few-foot-wrap .few-foot-cont .few-foot-cont-r .icon-list .email-cont p {
+          font-size: 12px;
+          color: #070918; }
     .few-foot-wrap .few-foot-cont .few-foot-cont-r .code-h:hover .code-cont {
       display: block; }
     .few-foot-wrap .few-foot-cont .few-foot-cont-r .adress-h:hover .adress-cont {
+      display: block; }
+    .few-foot-wrap .few-foot-cont .few-foot-cont-r .email-h:hover .email-cont {
       display: block; }
 
 /*# sourceMappingURL=public.css.map */
