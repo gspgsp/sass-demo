@@ -42,12 +42,64 @@ body {
 .fz-14 {
   font-size: 14px;
 }
+
+.fz-16 {
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
 .align-center {
   display: flex;
   display: -webkit-flex;
   align-items: center;
   -webkit-align-items: center;
   justify-content: center;
+}
+
+//顶部导航
+.nav-wrapper {
+  width: 100%;
+  height: 72px;
+
+  .nav-cont {
+    min-width: 1200px;
+    margin: 0 50px;
+    .nav-l {
+      float: left;
+      .logo-cont {
+        width: 120px;
+        height: 42px;
+        float: left;
+        margin-top: 15px;
+        background-image: url("../images/logo-b.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+      }
+      .nav-menu {
+        float: left;
+        margin-left: 32px;
+        ul {
+          li {
+            float: left;
+            margin-right: 30px;
+            a {
+              padding: 0 12px;
+              line-height: 72px;
+              display: block;
+              color: $default-cl;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.nav-bac {
+  background: #191919;
 }
 
 //底部导航
