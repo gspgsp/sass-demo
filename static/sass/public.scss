@@ -59,6 +59,11 @@ a {
   justify-content: center;
 }
 
+.space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
 //顶部导航
 .nav-wrapper {
   width: 100%;
@@ -146,6 +151,40 @@ a {
       background-color: $price-cl;
       text-align: center;
     }
+  }
+
+  // mouse hover content
+  .nav-shop-cont {
+    width: 330px;
+    position: absolute;
+    top: 72px;
+    right: 0;
+    z-index: 10;
+    border-radius: 0 0 8px 8px;
+    box-shadow: 0 8px 16px 0 rgba(7,17,27,0.2);
+    .nav-icon-s {
+      width: 20px;
+      height: 20px;
+      position: absolute;
+      top: -8px;
+      right: 49px;
+    }
+    .nav-shop-top {
+      margin: 0 20px;
+      padding: 18px 0;
+
+      .nav-car-tit {
+        font-size: 12px;
+        color: #81D8D0;
+        line-height: 12px;
+      }
+      .nav-car-num {
+        font-size: 12px;
+        color: #070918;
+        line-height: 12px;
+      }
+    }
+
   }
 }
 
