@@ -81,6 +81,53 @@ a {
 .nav-bac {
   background: #191919; }
 
+.nav-r {
+  float: right;
+  height: 72px;
+  display: flex;
+  align-items: center; }
+
+.nav-shop-car-box {
+  height: 72px;
+  position: relative; }
+  .nav-shop-car-box .nav-shop-car {
+    margin-top: 18px;
+    height: 36px;
+    border: 1px solid #d9dde1;
+    border-radius: 18px;
+    box-sizing: border-box;
+    padding: 0 14px; }
+    .nav-shop-car-box .nav-shop-car .nav-shop-car-img {
+      width: 24px;
+      height: 24px;
+      background-image: url("../images/shop-car.png");
+      background-size: 100%;
+      background-repeat: no-repeat; }
+    .nav-shop-car-box .nav-shop-car .nav-shop-car-t {
+      color: #71777D;
+      font-size: 12px;
+      margin: 0 5px; }
+    .nav-shop-car-box .nav-shop-car .nav-shop-car-num {
+      height: 18px;
+      line-height: 18px;
+      padding: 0 6px;
+      font-size: 12px;
+      border-radius: 50%;
+      color: #ffffff;
+      background-color: #F01414;
+      text-align: center; }
+
+.middle {
+  display: inline-block;
+  vertical-align: middle; }
+
+.align-center {
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -webkit-align-items: center;
+  justify-content: center; }
+
 .few-foot-wrap {
   width: 100%;
   background: #070918;
