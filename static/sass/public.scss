@@ -184,7 +184,30 @@ a {
         line-height: 12px;
       }
     }
+    .nav-car-item {
+      border-top: 1px solid #E7E7E7;
+      border-bottom: 1px solid #E7E7E7;
+      height: 224px;
+      margin: 0 20px;
+      overflow: auto;
 
+      .nav-car-list {
+        position: relative;
+        .nav-course-img {
+          width: 80px;
+          height: 50px;
+          float: left;
+          img {
+            width: 100%;
+            height: 100%;
+            display: block;
+          }
+        }
+        .nav-course-detail {
+
+        }
+      }
+    }
   }
 }
 
