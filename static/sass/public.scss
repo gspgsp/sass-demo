@@ -311,6 +311,24 @@ a {
   }
 }
 
+.news-cont {
+  margin: 0 25px 0 30px;
+  position: relative;
+  .nav-new-img {
+    width: 36px;
+    height: 36px;
+    display: block;
+  }
+  .news-hint-box {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: $price-cl;
+    position: absolute;
+    right: 5px;
+  }
+}
+
 //let block to inline
 .middle {
   display: inline-block;
