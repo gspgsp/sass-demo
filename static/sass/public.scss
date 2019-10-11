@@ -162,6 +162,7 @@ a {
     z-index: 10;
     border-radius: 0 0 8px 8px;
     box-shadow: 0 8px 16px 0 rgba(7,17,27,0.2);
+    display: none;
     .nav-icon-s {
       width: 20px;
       height: 20px;
@@ -192,6 +193,7 @@ a {
       overflow: auto;
 
       .nav-car-list {
+        padding: 8px 15px 8px 6px;
         position: relative;
         .nav-course-img {
           width: 80px;
@@ -204,10 +206,108 @@ a {
           }
         }
         .nav-course-detail {
+          margin-left: 90px;
+          .car-course-tit {
+            font-size: 12px;
+            color: $c1f21;
+            margin-top: -3px;
+            display: block;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            //-webkit-line-clamp: 2;
+            //-webkit-box-orient: vertical;
+          }
+          .car-course-bot {
+            margin-top: 4px;
+            font-size: 12px;
+            color: $c1f21;
+            .car-course-price {
+              opacity: 0.75;
+            }
+            .nav-course-del {
+              color: $price-cl;
+              position: absolute;
+              bottom: 11px;
+              right: 13px;
+              display: none;
+            }
+          }
+        }
+      }
 
+      .nav-car-list:hover {
+        background: #f5f6f6;
+        .nav-course-del {
+          display: block !important;
+        }
+      }
+
+      .nav-car-null {
+        height: 100%;
+        .nav-car-null-box {
+          text-align: center;
+          img {
+            width: 48px;
+            height: 48px;
+            display: block;
+            margin: 0 auto;
+          }
+          p {
+            color: #9199a1;
+            font-size: 12px;
+          }
+          a {
+            font-size: 12px;
+            color: $theme-cl;
+            display: block;
+          }
+          .car-null-hint {
+            font-size: 14px;
+            color: #1C1F21;
+            margin: 18px 0 14px 0;
+          }
+          .nav-a-mt {
+            margin: 20px 0 14px 0;
+          }
         }
       }
     }
+
+    .nav-car-bot {
+      margin: 0 20px;
+      padding: 11px 0;
+      a {
+        display: block;
+      }
+      .nav-car-bot-l {
+        font-size: 12px;
+        color: #9199a1;
+        line-height: 24px;
+      }
+      .nav-car-bot-r {
+        width: 78px;
+        height: 24px;
+        font-size: 12px;
+        color: #ffffff;
+        background: rgba(129, 216, 208, 1);
+        line-height: 24px;
+        text-align: center;
+        border-radius: 12px;
+      }
+    }
+  }
+}
+
+.nav-shop-car-box:hover{
+  .nav-shop-car{
+    cursor: pointer;
+  }
+  .nav-shop-car {
+    background: #F5F6F6;
+  }
+  .nav-shop-cont{
+    display: block;
   }
 }
 
