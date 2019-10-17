@@ -1,3 +1,38 @@
-
+.answer-box .answer-wrap {
+  position: relative; }
+  .answer-box .answer-wrap .answer-head {
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 2px 6px 0 rgba(20, 14, 32, 0.02); }
+    .answer-box .answer-wrap .answer-head .answer-head-cont {
+      margin: 0 auto; }
+      .answer-box .answer-wrap .answer-head .answer-head-cont a {
+        line-height: 50px;
+        color: #a4a6a7;
+        font-size: 16px;
+        display: block;
+        float: left;
+        position: relative;
+        padding-right: 15px;
+        margin-right: 10px; }
+    .answer-box .answer-wrap .answer-head .answer-head-cont a:after {
+      content: "/";
+      position: absolute;
+      top: 0;
+      right: 0;
+      color: #a4a6a7;
+      font-size: 16px; }
+    .answer-box .answer-wrap .answer-head .answer-head-cont > a:last-child:after {
+      content: "";
+      cursor: default; }
+  .answer-box .answer-wrap .answer-cont {
+    padding-top: 54px;
+    margin: 0 auto; }
+    .answer-box .answer-wrap .answer-cont .answer-cont-l {
+      width: 838px; }
+      .answer-box .answer-wrap .answer-cont .answer-cont-l .topic-top {
+        padding-bottom: 14px;
+        border-bottom: 1px solid #D9DDE1;
+        margin-bottom: 20px; }
 
 /*# sourceMappingURL=answer.css.map */
