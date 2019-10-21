@@ -59,6 +59,9 @@ a {
   text-overflow: ellipsis;
   white-space: nowrap; }
 
+.checkbox {
+  display: none; }
+
 .nav-wrapper {
   width: 100%;
   height: 72px; }

@@ -43,6 +43,47 @@
           padding-bottom: 14px;
           border-bottom: 1px solid $light-gray;
           margin-bottom: 20px;
+          .topic-top-tit {
+            color: $black-cl;
+            font-size: 16px;
+            line-height: 16px;
+          }
+          .topic-top-right {
+            .topic-time-cont {
+              line-height: 16px;
+              font-size: 12px;
+              color: #93999f;
+              .t-time-num {
+                color: $price-cl;
+              }
+            }
+            .errors-but {
+              line-height: 16px;
+              font-size: 12px;
+              color: $sub-cl;
+              .checkbox[type=checkbox] +s {
+                width: 14px;
+                height: 14px;
+                display: inline-block;
+                background-image: url("../images/inp-check.png");
+                background-repeat: no-repeat;
+                background-size: 100%;
+              }
+              .checkbox[type=checkbox]:checked +s {
+                background-image: url("../images/inp-check-a.png");
+              }
+              .check_img {
+                margin-right: 8px;
+              }
+
+            }
+          }
+        }
+        //产品布局列表
+        .answer-item {
+          .answer-list {
+            margin-bottom: 48px;
+          }
         }
       }
       .answer-cont-r {
