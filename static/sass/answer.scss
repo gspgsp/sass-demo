@@ -157,6 +157,48 @@
                 }
               }
             }
+            //解析
+            .analysis-wrap {
+              .analysis-cont {
+                float: right;
+                width: 758px;
+                border-top: 1px solid $light-gray;
+                padding-top: 20px;
+                margin-top: 10px;
+                .analysis-mlr {
+                  margin: 0 15px 0 36px;
+                  .ana-top {
+                    font-size: 14px;
+                    .right-cl {
+                      color: $dc762;
+                    }
+                    .error-cl{
+                      color: $ff5d46;;
+                    }
+                    .ana-t-cont {
+                      font-size: 12px;
+                      color: $sub-cl;
+                      cursor: pointer;
+                      img {
+                        width: 12px;
+                        margin-left: 6px;
+                        transition: linear .2s;
+
+                      }
+                    }
+                  }
+                  .analysis-text-cont{
+                    font-size: 12px;
+                    line-height: 18px;
+                    color: $sub-cl;
+                    margin-top: 20px;
+                    img{
+                      max-width: 100%;
+                    }
+                  }
+                }
+              }
+            }
           }
         }
       }
