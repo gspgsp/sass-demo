@@ -203,7 +203,101 @@
         }
       }
       .answer-cont-r {
-
+        width: 320px;
+        position: relative;
+        .answer-sheet-cont{
+          width: 320px;
+          border-radius: 10px;
+          position: fixed;
+          top: 176px;
+          box-shadow: 0px 2px 6px 0px rgba(20,14,32,0.02);
+          .cart-cont{
+            padding: 21px 0 24px 0;
+            margin: 0 30px;
+            .cart-top{
+              .cart-tit{
+                margin-right: 12px;
+                font-size: 14px;
+                color: $black-cl;
+              }
+              .cart-num{
+                font-size: 12px;
+                color: #93999f;
+              }
+            }
+            .answer-num-cont {
+              margin: 20px 4px 0 4px;
+              padding-bottom: 12px;
+              border-bottom: 1px solid $light-gray;
+              .answer-num-item {
+                margin-left: -18px;
+                li{
+                  width: 36px;
+                  height: 36px;
+                  font-size: 16px;
+                  line-height: 34px;
+                  float: left;
+                  text-align: center;
+                  border: 1px solid $light-gray;
+                  box-sizing: border-box;
+                  color: #93999f;
+                  border-radius: 10px;
+                  margin-left: 18px;
+                  margin-bottom: 18px;
+                }
+                .num-li-a{
+                  color: #ffffff;
+                  background: #9ca0a4;
+                  border: 1px solid #9ca0a4;
+                }
+              }
+            }
+            .answer-sub {
+              display: block;
+              width: 120px;
+              height: 36px;
+              text-align: center;
+              line-height: 36px;
+              border-radius: 18px;
+              font-size: 14px;
+              color: #ffffff;
+              margin-top: 25px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .ana-ul{
+    padding-bottom: 0 !important;
+    .total-num-ul {
+      margin-left: -18px;
+      li{
+        width: 36px;
+        height: 36px;
+        text-align: center;
+        border: 1px solid $light-gray;
+        box-sizing: border-box;
+        border-radius: 10px;
+        float: left;
+        margin-left: 18px;
+        margin-bottom: 26px;
+        position: relative;
+        span{
+          color: #93999f;
+          font-size: 16px;
+          line-height: 34px;
+          text-align: center;
+          display: block;
+        }
+        img{
+          position: absolute;
+          width: 18px;
+          height: 18px;
+          bottom: -9px;
+          right: -9px;
+          display: block;
+        }
       }
     }
   }
