@@ -232,5 +232,35 @@
         bottom: -9px;
         right: -9px;
         display: block; }
+.answer-box .r-total-cont .total-cont {
+  padding-top: 20px;
+  text-align: center; }
+  .answer-box .r-total-cont .total-cont .total-item {
+    display: inline-block; }
+    .answer-box .r-total-cont .total-cont .total-item .total-list {
+      float: left;
+      position: relative; }
+      .answer-box .r-total-cont .total-cont .total-item .total-list .total-num {
+        color: #1C1F21;
+        font-weight: bold; }
+        .answer-box .r-total-cont .total-cont .total-item .total-list .total-num .num-p {
+          margin: 0 4px;
+          font-size: 22px;
+          color: #F01414; }
+      .answer-box .r-total-cont .total-cont .total-item .total-list .total-p {
+        margin-top: 8px;
+        font-size: 12px;
+        color: #93999f; }
+    .answer-box .r-total-cont .total-cont .total-item .total-list-br {
+      padding-right: 18px;
+      margin-right: 18px; }
+    .answer-box .r-total-cont .total-cont .total-item .total-list-br:after {
+      content: '';
+      width: 1px;
+      height: 32px;
+      background: #EEEEEE;
+      position: absolute;
+      top: 10px;
+      right: 0px; }
 
 /*# sourceMappingURL=answer.css.map */
