@@ -268,6 +268,53 @@
       }
     }
   }
+  .answer-pop {
+    width: 440px;
+    position: absolute;
+    top: 300px;
+    left: 500px;
+    border-radius: 10px;
+    z-index: 99;
+    .answer-pop-h {
+      width: 440px;
+      height: 182px;
+      display: block;
+      background-size: 100%;
+      background-repeat: no-repeat;
+      position: relative;
+      .pop-h-cont {
+        width: 400px;
+        padding-top: 21px;
+        padding-bottom: 8px;
+        border-radius: 10px 10px 0 0;
+        position: absolute;
+        top: 20px;left: 20px;
+        .pop-tit-cont {
+          font-size: 14px;
+          color: $black-cl;
+          padding-left: 20px;
+          margin-bottom: 15px;
+          .tit-cont-name {
+            margin-left: 15px;
+            font-size: 12px;
+            color: #93999f;
+          }
+        }
+        .time-hint {
+          padding-left: 20px;
+          font-size: 12px;
+          color: #93999f;
+          span {
+            margin-right: 20px;
+          }
+        }
+        .total-cont {
+
+        }
+      }
+    }
+  }
+
   .ana-ul{
     padding-bottom: 0 !important;
     .total-num-ul {
