@@ -241,6 +241,52 @@
         color: #93999f; }
         .answer-box .answer-pop .answer-pop-h .pop-h-cont .time-hint span {
           margin-right: 20px; }
+      .answer-box .answer-pop .answer-pop-h .pop-h-cont .total-cont {
+        padding-top: 25px;
+        margin: 22px 8px 0 8px;
+        border-top: 1px dashed #EEEEEE;
+        text-align: center; }
+        .answer-box .answer-pop .answer-pop-h .pop-h-cont .total-cont .total-item {
+          display: inline-block; }
+          .answer-box .answer-pop .answer-pop-h .pop-h-cont .total-cont .total-item .total-list {
+            float: left;
+            position: relative; }
+            .answer-box .answer-pop .answer-pop-h .pop-h-cont .total-cont .total-item .total-list .total-num {
+              color: #1C1F21;
+              font-weight: bold; }
+              .answer-box .answer-pop .answer-pop-h .pop-h-cont .total-cont .total-item .total-list .total-num .num-p {
+                margin: 0 4px;
+                font-size: 22px;
+                color: #F01414; }
+            .answer-box .answer-pop .answer-pop-h .pop-h-cont .total-cont .total-item .total-list .total-p {
+              margin-top: 8px;
+              font-size: 12px;
+              color: #93999f; }
+          .answer-box .answer-pop .answer-pop-h .pop-h-cont .total-cont .total-item .total-list-br {
+            padding-right: 18px;
+            margin-right: 18px; }
+          .answer-box .answer-pop .answer-pop-h .pop-h-cont .total-cont .total-item .total-list-br:after {
+            content: '';
+            width: 1px;
+            height: 32px;
+            background: #EEEEEE;
+            position: absolute;
+            top: 10px;
+            right: 0; }
+      .answer-box .answer-pop .answer-pop-h .pop-h-cont .pop-propress-cont {
+        width: 316px;
+        height: 6px;
+        margin: 30px 42px 0 42px;
+        background: #EEEEEE;
+        position: relative;
+        border-radius: 6px; }
+        .answer-box .answer-pop .answer-pop-h .pop-h-cont .pop-propress-cont .propress {
+          height: 6px;
+          border-radius: 6px;
+          background: #51c905;
+          position: absolute;
+          top: 0;
+          left: 0; }
 .answer-box .ana-ul {
   padding-bottom: 0 !important; }
   .answer-box .ana-ul .total-num-ul {
