@@ -287,6 +287,64 @@
           position: absolute;
           top: 0;
           left: 0; }
+  .answer-box .answer-pop .answer-pop-c {
+    padding-top: 70px;
+    padding-bottom: 25px;
+    border-radius: 0px 0px 8px 8px; }
+    .answer-box .answer-pop .answer-pop-c .total-num-cont {
+      margin: 0 62px; }
+      .answer-box .answer-pop .answer-pop-c .total-num-cont .total-num-ul {
+        margin-left: -34px; }
+        .answer-box .answer-pop .answer-pop-c .total-num-cont .total-num-ul li {
+          float: left;
+          width: 36px;
+          height: 36px;
+          text-align: center;
+          border: 1px solid #D9DDE1;
+          box-sizing: border-box;
+          border-radius: 10px;
+          margin-left: 34px;
+          margin-bottom: 26px;
+          position: relative; }
+          .answer-box .answer-pop .answer-pop-c .total-num-cont .total-num-ul li span {
+            color: #93999f;
+            font-size: 16px;
+            line-height: 34px;
+            text-align: center;
+            display: block; }
+          .answer-box .answer-pop .answer-pop-c .total-num-cont .total-num-ul li img {
+            width: 18px;
+            height: 18px;
+            position: absolute;
+            bottom: -9px;
+            right: -9px;
+            display: block; }
+    .answer-box .answer-pop .answer-pop-c .pop-but-cont {
+      margin: 6px 28px 0 28px;
+      text-align: center;
+      padding-top: 26px;
+      border-top: 1px dashed #EEEEEE; }
+      .answer-box .answer-pop .answer-pop-c .pop-but-cont .pop-but-box {
+        display: inline-block; }
+        .answer-box .answer-pop .answer-pop-c .pop-but-cont .pop-but-box a {
+          width: 110px;
+          padding: 11px 0;
+          text-align: center;
+          color: #93999f;
+          border: 1px solid #93999f;
+          box-sizing: border-box;
+          border-radius: 18px;
+          font-size: 12px;
+          line-height: 12px;
+          margin-right: 60px;
+          float: left;
+          display: block; }
+        .answer-box .answer-pop .answer-pop-c .pop-but-cont .pop-but-box .but-a {
+          border: 1px solid #3cd0c3;
+          color: #ffffff;
+          background-color: #3cd0c3; }
+      .answer-box .answer-pop .answer-pop-c .pop-but-cont .pop-but-box a:last-child {
+        margin-right: 0; }
 .answer-box .ana-ul {
   padding-bottom: 0 !important; }
   .answer-box .ana-ul .total-num-ul {
