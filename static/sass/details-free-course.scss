@@ -1,0 +1,17 @@
+@charset "utf-8";
+@import "theme";
+
+.free-classes-info .banner-cont {
+  height: 100%;
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -600px;
+  .crumbs-nav {
+    padding-top: 16px;
+    font-size: 12px;
+    line-height: 12px;
+    color: rgba(255,255,255,0.7);
+  }
+}

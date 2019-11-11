@@ -1,0 +1,217 @@
+@charset "utf-8";
+@import "theme";
+
+.class-details {
+  .banner-info {
+    height: 288px;
+    position: relative;
+  }
+  .banner-tit-cont {
+    position: relative;
+  }
+  .title-box {
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 46px;
+    h3 {
+      font-size: 30px;
+    }
+    p {
+      font-size: 16px;
+    }
+    .course-statistics-box {
+      display: block !important;
+      margin-top: 18px;
+      .course-statistics-line {
+        width: 160px;
+        height: 1px;
+        background: rgba(255,255,255,1);
+        margin: 0 auto;
+      }
+      .info-bar {
+        margin-top: 14px;
+        display: inline-block;
+        li{
+          color: #ffffff;
+          font-size: 12px;
+          float: left;
+          position: relative;
+          padding-right: 16px;
+          margin-right: 16px;
+        }
+        :after{
+          content: "";
+          background: #ffffff;
+          width: 1px;
+          height: 12px;
+          position: absolute;
+          top: 3px;
+          right: 0;
+        }
+        :last-child:after{
+          width: 0;
+        }
+      }
+    }
+  }
+  .share-action {
+    position: absolute;
+    top: 18px;
+    right: 0;
+    .collect-share{
+      float: left;
+      cursor: pointer;
+      opacity: .7;
+    }
+    .collect-share:hover {
+      opacity: 1;
+    }
+    .collect-share img{
+      width: 20px;
+    }
+    .collect-share span {
+      font-size: 12px;
+      color: #ffffff;
+      margin-left: 2px;
+    }
+    .collect-img {
+      margin-right: 25px;
+    }
+  }
+  .fixed-wrap {
+    position: absolute;
+    left: 0px;
+    bottom: -68px;
+    background: #ffffff;
+    box-shadow: 0px 2px 6px 0px rgba(20,14,32,0.28);
+    border-radius: 10px;
+  }
+  .con {
+    padding: 36px 60px;
+    position: relative;
+  }
+
+  .time-price {
+    div{
+      display: inline-block;
+      vertical-align: middle;
+    }
+    .time-limit{
+      font-size: 12px;
+      padding: 0 13px;
+      height: 32px;
+      background: linear-gradient(10deg,rgba(255,8,103,1),rgba(255,117,4,1), rgba(125,117,4,1));
+      border-radius: 15px;
+      margin-right: 5px;
+      .discounts-tit {
+        line-height: 32px;
+        color: #ffffff;
+        font-size: 14px;
+        margin-right: 5px;
+      }
+      .count-down-cont {
+        span{
+          display: inline-block;
+        }
+        .time-span {
+          background: #FFFFFF;
+          padding: 0 3px;
+          height: 20px;
+          line-height: 20px;
+          font-size: 14px;
+          color: #1C1F21;
+          border-radius: 6px;
+        }
+        .time-icon {
+          height: 20px;
+          line-height: 20px;
+          border-radius:6px;
+          color: #FFFFFF;
+          font-weight: bold;
+          font-size:16px;
+        }
+      }
+    }
+    .ori-price {
+      font-size: 32px;
+      color: red;
+      font-weight: bold;
+    }
+    .original-cost {
+      font-size: 12px;
+      color: #545C63;
+      margin: 0 12px 0 10px;
+      text-decoration: line-through;
+    }
+    .can-huabei {
+      width: 68px;
+      height: 24px;
+      line-height: 24px;
+      font-size: 12px;
+      background:linear-gradient(70deg,rgba(159,159,245,1),rgba(24,97,211,1));
+      border-radius: 11px;
+      text-align: center;
+      color: #FFFFFF;
+      margin-right: 12px;
+    }
+    .coupon-cont {
+      height: 24px;
+      background:linear-gradient(70deg,rgba(255,89,0,1),rgba(155,168,0,1));
+      border-radius: 12px;
+      padding: 0 12px;
+      font-size: 12px;
+      line-height: 24px;
+    }
+  }
+  .info-bar {
+    margin-top: 6px;
+    li{
+      float: left;
+      font-size: 12px;
+      color: #545C63;
+      padding-right: 16px;
+      margin-right: 16px;
+      position: relative;
+    }
+    :after{
+      content: '';
+      width: 1px;
+      height: 12px;
+      background: #545C63;
+      position: absolute;
+      top: 3px;
+      right: 0;
+    }
+    :last-child:after{
+      width: 0;
+    }
+  }
+  .btns {
+    position: absolute;
+    right: 60px;
+    top: 44px;
+    a{
+      min-width: 140px;
+      padding: 16px 36px;
+      box-sizing: border-box;
+      line-height: 16px;
+      border-radius: 24px;
+      text-align: center;
+      display: inline-block;
+      font-size: 16px;
+      margin-right: 40px;
+    }
+    :last-child{
+      margin-right: 0;
+    }
+    .gobuy {
+      background: $price-cl;
+      color: #FFFFFF;
+    }
+    .addcart {
+      color: $price-cl;
+      background:linear-gradient(70deg,rgba(255,89,0,1),rgba(155,118,110,1));
+    }
+  }
+}
