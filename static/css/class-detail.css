@@ -1,0 +1,171 @@
+.class-details .banner-info {
+  height: 288px;
+  position: relative; }
+.class-details .banner-tit-cont {
+  position: relative; }
+.class-details .title-box {
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 46px; }
+  .class-details .title-box h3 {
+    font-size: 30px; }
+  .class-details .title-box p {
+    font-size: 16px; }
+  .class-details .title-box .course-statistics-box {
+    display: block !important;
+    margin-top: 18px; }
+    .class-details .title-box .course-statistics-box .course-statistics-line {
+      width: 160px;
+      height: 1px;
+      background: white;
+      margin: 0 auto; }
+    .class-details .title-box .course-statistics-box .info-bar {
+      margin-top: 14px;
+      display: inline-block; }
+      .class-details .title-box .course-statistics-box .info-bar li {
+        color: #ffffff;
+        font-size: 12px;
+        float: left;
+        position: relative;
+        padding-right: 16px;
+        margin-right: 16px; }
+      .class-details .title-box .course-statistics-box .info-bar :after {
+        content: "";
+        background: #ffffff;
+        width: 1px;
+        height: 12px;
+        position: absolute;
+        top: 3px;
+        right: 0; }
+      .class-details .title-box .course-statistics-box .info-bar :last-child:after {
+        width: 0; }
+.class-details .share-action {
+  position: absolute;
+  top: 18px;
+  right: 0; }
+  .class-details .share-action .collect-share {
+    float: left;
+    cursor: pointer;
+    opacity: .7; }
+  .class-details .share-action .collect-share:hover {
+    opacity: 1; }
+  .class-details .share-action .collect-share img {
+    width: 20px; }
+  .class-details .share-action .collect-share span {
+    font-size: 12px;
+    color: #ffffff;
+    margin-left: 2px; }
+  .class-details .share-action .collect-img {
+    margin-right: 25px; }
+.class-details .fixed-wrap {
+  position: absolute;
+  left: 0px;
+  bottom: -68px;
+  background: #ffffff;
+  box-shadow: 0px 2px 6px 0px rgba(20, 14, 32, 0.28);
+  border-radius: 10px; }
+.class-details .con {
+  padding: 36px 60px;
+  position: relative; }
+.class-details .time-price div {
+  display: inline-block;
+  vertical-align: middle; }
+.class-details .time-price .time-limit {
+  font-size: 12px;
+  padding: 0 13px;
+  height: 32px;
+  background: linear-gradient(10deg, #ff0867, #ff7504, #7d7504);
+  border-radius: 15px;
+  margin-right: 5px; }
+  .class-details .time-price .time-limit .discounts-tit {
+    line-height: 32px;
+    color: #ffffff;
+    font-size: 14px;
+    margin-right: 5px; }
+  .class-details .time-price .time-limit .count-down-cont span {
+    display: inline-block; }
+  .class-details .time-price .time-limit .count-down-cont .time-span {
+    background: #FFFFFF;
+    padding: 0 3px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    color: #1C1F21;
+    border-radius: 6px; }
+  .class-details .time-price .time-limit .count-down-cont .time-icon {
+    height: 20px;
+    line-height: 20px;
+    border-radius: 6px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 16px; }
+.class-details .time-price .ori-price {
+  font-size: 32px;
+  color: red;
+  font-weight: bold; }
+.class-details .time-price .original-cost {
+  font-size: 12px;
+  color: #545C63;
+  margin: 0 12px 0 10px;
+  text-decoration: line-through; }
+.class-details .time-price .can-huabei {
+  width: 68px;
+  height: 24px;
+  line-height: 24px;
+  font-size: 12px;
+  background: linear-gradient(70deg, #9f9ff5, #1861d3);
+  border-radius: 11px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-right: 12px; }
+.class-details .time-price .coupon-cont {
+  height: 24px;
+  background: linear-gradient(70deg, #ff5900, #9ba800);
+  border-radius: 12px;
+  padding: 0 12px;
+  font-size: 12px;
+  line-height: 24px; }
+.class-details .info-bar {
+  margin-top: 6px; }
+  .class-details .info-bar li {
+    float: left;
+    font-size: 12px;
+    color: #545C63;
+    padding-right: 16px;
+    margin-right: 16px;
+    position: relative; }
+  .class-details .info-bar :after {
+    content: '';
+    width: 1px;
+    height: 12px;
+    background: #545C63;
+    position: absolute;
+    top: 3px;
+    right: 0; }
+  .class-details .info-bar :last-child:after {
+    width: 0; }
+.class-details .btns {
+  position: absolute;
+  right: 60px;
+  top: 44px; }
+  .class-details .btns a {
+    min-width: 140px;
+    padding: 16px 36px;
+    box-sizing: border-box;
+    line-height: 16px;
+    border-radius: 24px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 40px; }
+  .class-details .btns :last-child {
+    margin-right: 0; }
+  .class-details .btns .gobuy {
+    background: #F01414;
+    color: #FFFFFF; }
+  .class-details .btns .addcart {
+    color: #F01414;
+    background: linear-gradient(70deg, #ff5900, #9b766e); }
+
+/*# sourceMappingURL=class-detail.css.map */

@@ -1,0 +1,14 @@
+.free-classes-info .banner-cont {
+  height: 100%;
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -600px; }
+  .free-classes-info .banner-cont .crumbs-nav {
+    padding-top: 16px;
+    font-size: 12px;
+    line-height: 12px;
+    color: rgba(255, 255, 255, 0.7); }
+
+/*# sourceMappingURL=details-free-course.css.map */

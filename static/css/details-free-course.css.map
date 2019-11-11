@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAGA,+BAAgC;EAC9B,MAAM,EAAE,IAAI;EACZ,OAAO,EAAE,CAAC;EACV,QAAQ,EAAE,QAAQ;EAClB,GAAG,EAAE,CAAC;EACN,IAAI,EAAE,GAAG;EACT,WAAW,EAAE,MAAM;EACnB,2CAAY;IACV,WAAW,EAAE,IAAI;IACjB,SAAS,EAAE,IAAI;IACf,WAAW,EAAE,IAAI;IACjB,KAAK,EAAE,wBAAqB",
+"sources": ["../sass/details-free-course.scss"],
+"names": [],
+"file": "details-free-course.css"
+}
