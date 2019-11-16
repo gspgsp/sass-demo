@@ -287,4 +287,214 @@
       }
     }
   }
+  .course-details-wrap {
+    margin-top: 42px;
+    .course-detail-cont {
+      margin: 0 auto;
+      .detail-cont-l {
+        width: 814px;
+        .section-list{
+          margin-top: 30px;
+          padding-bottom: 10px;
+          border-bottom: 2px solid red;
+          .section-head {
+            .section-img-box {
+              width: 22px;
+              height: 22px;
+              border-radius: 50%;
+              background: $theme-cl;
+              float: left;
+              .section-img {
+                width: 14px;
+                height: 12px;
+                margin: 5px auto;
+                display: block;
+              }
+            }
+            .section-text {
+              margin-left: 36px;
+              .section-tit {
+                font-size: 14px;
+                line-height: 22px;
+                font-weight: 400;
+                color: #07111B;
+                margin-bottom: 2px;
+              }
+              .section-intro {
+                font-size: 12px;
+                color: #1C1F21;
+                line-height: 22px;
+                max-height: 44px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                display: -webkit-box;
+                -webkit-box-orient:vertical;
+                -webkit-line-clamp:2;
+              }
+              .section-intro:hover {
+                max-height: initial;
+                overflow: initial;
+                display: block;
+              }
+            }
+          }
+          .course-section-item {
+            border-top: 1px solid green;
+            margin-top: 15px;
+            .multistage-video{
+              padding: 16px 0 16px 0;
+              position: relative;
+              .video-icon {
+                width: 18px;
+                height: 18px;
+                background: none;
+                border-radius: 50%;
+                border: 2px solid #93999f;
+                margin-right: 10px;
+                img{
+                  width: 6px;
+                  height: 8px;
+                  margin: 5px 0 5px 7px;
+                }
+              }
+              .knob-icon-box {
+                box-sizing: border-box;
+              }
+              .title_info {
+                max-width: 680px;
+                line-height: 18px;
+              }
+            }
+            .multistage-video:after {
+              content: '';
+              width: 782px;
+              background: #d9dde1;
+              position: absolute;
+              bottom: 0;
+              left: 32px;
+              height: 4px;
+              transform: scale(1, 0.2);
+            }
+            li a {
+              font-size: 14px;
+              color: #1C1F21;
+              display: block;
+              padding: 12px 0 12px 12px;
+              position: relative;
+              .video-icon{
+                width: 18px;
+                height: 18px;
+                background: #93999f;
+                border-radius: 50%;
+                margin-right: 10px;
+                img{
+                  width: 6px;
+                  height: 8px;
+                  margin: 5px 0 5px 7px;
+                }
+              }
+              .title_info {
+                max-width: 680px;
+                line-height: 18px;
+              }
+              .v-list-r {
+                height: 100%;
+                position: absolute;
+                top: 0;
+                right: 16px;
+                .v-list-r-box {
+                  height: 100%;
+                  display: flex;
+                  align-items: center;
+                  span{
+                    color: #93999f;
+                    font-size: 14px;
+                    line-height: 18px;
+                  }
+                  .video-list-icon{
+                    width: 16px;
+                    height: 16px;
+                    border: 2px solid #d9dde1;
+                    box-sizing: border-box;
+                    border-radius: 50%;
+                    margin-left: 14px;
+                    background: none;
+                  }
+                  .watch-free{
+                    color: #81d8d0 !important;
+                    font-size: 12px !important;
+                    padding: 0 12px;
+                    background: #eefdfc;
+                    height: 24px;
+                    line-height: 24px !important;
+                    border-radius: 12px;
+                    cursor: pointer;
+                  }
+                }
+              }
+            }
+          }
+        }
+        .section-list:first-child{
+          margin-top: 0;
+        }
+
+        .data-download-wrap {
+          margin-left: 15%;
+          .data-download-list{
+            border-bottom: 1px solid #d9dde1;
+            padding-bottom: 30px;
+            margin-bottom: 30px;
+            .material-type {
+              color: #FFFFFF;
+              background: #9199a1;
+              border-radius: 10px;
+              font-size: 12px;
+              height: 20px;
+              line-height: 20px;
+              padding: 0 10px;
+            }
+            .material-tit {
+              font-size: 16px;
+              color: #07111B;
+              max-width: 500px;
+              height: 20px;
+              line-height: 20px;
+              margin-left: 12px;
+              margin-right: 20px;
+            }
+            .material-info {
+              font-size: 12px;
+              line-height: 20px;
+              height: 20px;
+              color: #93999f;
+            }
+            .material-info span:first-child {
+              margin-right: 20px;
+            }
+            .download-but {
+              width: 20px;
+              height: 20pt;
+              margin-right: 20px;
+              background-image: url("../images/c-xiazai.png");
+              background-repeat: no-repeat;
+              float: right;
+              cursor: pointer;
+            }
+          }
+          .data-download-list:hover{
+            .download-but{
+              background-image: url("../images/c-xiazai-b.png");
+            }
+            .material-type{
+              background: $theme-cl;
+            }
+            .material-tit{
+              color: $sub-theme;
+            }
+          }
+        }
+      }
+    }
+  }
 }
