@@ -396,5 +396,168 @@
           background: #81D8D0; }
         .class-details .course-details-wrap .course-detail-cont .detail-cont-l .data-download-wrap .data-download-list:hover .material-tit {
           color: #2B99A3; }
+      .class-details .course-details-wrap .course-detail-cont .detail-cont-l .evaluate-wrapper .evaluation-info {
+        margin-bottom: 36px;
+        padding-bottom: 26px;
+        border-bottom: 1px solid #d9dde1; }
+        .class-details .course-details-wrap .course-detail-cont .detail-cont-l .evaluate-wrapper .evaluation-info .evaluation-title {
+          font-size: 16px;
+          color: #1C1F21;
+          line-height: 18px; }
+        .class-details .course-details-wrap .course-detail-cont .detail-cont-l .evaluate-wrapper .evaluation-info .evaluation-score {
+          font-size: 32px;
+          font-weight: bold;
+          color: #4D555D;
+          margin: 0 18px; }
+        .class-details .course-details-wrap .course-detail-cont .detail-cont-l .evaluate-wrapper .evaluation-info .grade-ul li {
+          font-family: "Microsoft JhengHei";
+          font-size: 14px;
+          color: #4D555D;
+          float: left;
+          margin-right: 40px;
+          margin-top: 8px; }
+        .class-details .course-details-wrap .course-detail-cont .detail-cont-l .evaluate-wrapper .evaluation-info .grade-ul li span {
+          line-height: 24px;
+          float: left;
+          display: block; }
+        .class-details .course-details-wrap .course-detail-cont .detail-cont-l .evaluate-wrapper .evaluation-info .grade-ul li .grade-ul-num {
+          font-weight: 400;
+          margin-left: 12px;
+          font-size: 24px;
+          color: #ff5900;
+          display: inline-block;
+          vertical-align: middle; }
+      .class-details .course-details-wrap .course-detail-cont .detail-cont-l .evaluate-wrapper .fill-evaluation-cont {
+        margin-bottom: 30px;
+        padding-bottom: 60px;
+        border-bottom: 1px solid #d9dde1; }
+        .class-details .course-details-wrap .course-detail-cont .detail-cont-l .evaluate-wrapper .fill-evaluation-cont .fill-evaluatio-top {
+          margin-bottom: 30px; }
+          .class-details .course-details-wrap .course-detail-cont .detail-cont-l .evaluate-wrapper .fill-evaluation-cont .fill-evaluatio-top .fill-evaluatio-tit {
+            font-size: 16px;
+            color: #07111B;
+            font-weight: bold;
+            margin-right: 24px; }
+          .class-details .course-details-wrap .course-detail-cont .detail-cont-l .evaluate-wrapper .fill-evaluation-cont .fill-evaluatio-top .evaluatio-ty {
+            margin-right: 30px; }
+            .class-details .course-details-wrap .course-detail-cont .detail-cont-l .evaluate-wrapper .fill-evaluation-cont .fill-evaluatio-top .evaluatio-ty .fill-evaluatio-type {
+              font-size: 12px;
+              color: #4D555D;
+              margin-right: 12px; }
+        .class-details .course-details-wrap .course-detail-cont .detail-cont-l .evaluate-wrapper .fill-evaluation-cont .textarea-cont .textarea-box {
+          position: relative; }
+          .class-details .course-details-wrap .course-detail-cont .detail-cont-l .evaluate-wrapper .fill-evaluation-cont .textarea-cont .textarea-box .textarea {
+            width: 814px;
+            height: 148px;
+            font-size: 14px;
+            color: #ff7504;
+            padding: 16px;
+            outline: none;
+            background: #F8FCFC;
+            box-sizing: border-box;
+            border-radius: 10px; }
+          .class-details .course-details-wrap .course-detail-cont .detail-cont-l .evaluate-wrapper .fill-evaluation-cont .textarea-cont .textarea-box .text-count {
+            background: #FFFFFF;
+            position: absolute;
+            right: 20px;
+            bottom: 15px;
+            display: block;
+            font-size: 12px;
+            color: #ff7504; }
+        .class-details .course-details-wrap .course-detail-cont .detail-cont-l .evaluate-wrapper .fill-evaluation-cont .textarea-cont .but-cont {
+          margin-top: 15px; }
+          .class-details .course-details-wrap .course-detail-cont .detail-cont-l .evaluate-wrapper .fill-evaluation-cont .textarea-cont .but-cont .errors-but {
+            display: block;
+            float: left;
+            line-height: 16px;
+            font-size: 12px;
+            color: #545C63; }
+            .class-details .course-details-wrap .course-detail-cont .detail-cont-l .evaluate-wrapper .fill-evaluation-cont .textarea-cont .but-cont .errors-but .checkbox[type=checkbox] + s {
+              width: 14px;
+              height: 14px;
+              display: inline-block;
+              background-image: url("../images/inp-check.png");
+              background-repeat: no-repeat;
+              background-size: 100%; }
+            .class-details .course-details-wrap .course-detail-cont .detail-cont-l .evaluate-wrapper .fill-evaluation-cont .textarea-cont .but-cont .errors-but .checkbox[type=checkbox]:checked + s {
+              background-image: url("../images/inp-check-a.png"); }
+          .class-details .course-details-wrap .course-detail-cont .detail-cont-l .evaluate-wrapper .fill-evaluation-cont .textarea-cont .but-cont .sub-but {
+            display: block;
+            float: right;
+            padding: 13px 46px;
+            border-radius: 20px;
+            line-height: 14px;
+            outline: none;
+            color: #FFFFFF;
+            border: none !important;
+            font-size: 14px;
+            cursor: pointer;
+            background-color: #3CD0C3; }
+      .class-details .course-details-wrap .course-detail-cont .detail-cont-l .evaluate-wrapper .evaluation-item .evaluation-item-tit {
+        font-size: 16px;
+        font-weight: bold;
+        color: #707B89;
+        margin-bottom: 32px; }
+      .class-details .course-details-wrap .course-detail-cont .detail-cont-l .evaluate-wrapper .evaluation-item .evaluation-list {
+        position: relative;
+        margin-bottom: 35px; }
+        .class-details .course-details-wrap .course-detail-cont .detail-cont-l .evaluate-wrapper .evaluation-item .evaluation-list .evaluate-user-img {
+          width: 44px;
+          height: 44px;
+          background: #9ca0a4;
+          border-radius: 50%;
+          position: absolute;
+          left: 0;
+          top: 0; }
+        .class-details .course-details-wrap .course-detail-cont .detail-cont-l .evaluate-wrapper .evaluation-item .evaluation-list .evaluate-user-img img {
+          width: 100%;
+          height: 100%;
+          display: block;
+          border-radius: 50%; }
+        .class-details .course-details-wrap .course-detail-cont .detail-cont-l .evaluate-wrapper .evaluation-item .evaluation-list .evaluation-list-r {
+          margin-left: 66px;
+          padding-left: 0;
+          padding-bottom: 30px;
+          border-bottom: 1px solid #d9dde1; }
+          .class-details .course-details-wrap .course-detail-cont .detail-cont-l .evaluate-wrapper .evaluation-item .evaluation-list .evaluation-list-r .u-evaluation-info {
+            float: left;
+            margin-bottom: 16px; }
+            .class-details .course-details-wrap .course-detail-cont .detail-cont-l .evaluate-wrapper .evaluation-item .evaluation-list .evaluation-list-r .u-evaluation-info .evaluate-user-name {
+              font-size: 16px;
+              margin-right: 30px;
+              line-height: 16px;
+              font-weight: 400;
+              color: #707B89; }
+            .class-details .course-details-wrap .course-detail-cont .detail-cont-l .evaluate-wrapper .evaluation-item .evaluation-list .evaluation-list-r .u-evaluation-info .star-box img {
+              width: 16px;
+              display: inline-block; }
+            .class-details .course-details-wrap .course-detail-cont .detail-cont-l .evaluate-wrapper .evaluation-item .evaluation-list .evaluation-list-r .u-evaluation-info .star-box .u-grade {
+              float: left;
+              display: block;
+              margin-left: 12px; }
+          .class-details .course-details-wrap .course-detail-cont .detail-cont-l .evaluate-wrapper .evaluation-item .evaluation-list .evaluation-list-r .evaluate-time {
+            float: right;
+            font-size: 12px;
+            line-height: 16px;
+            color: #9ba800; }
+          .class-details .course-details-wrap .course-detail-cont .detail-cont-l .evaluate-wrapper .evaluation-item .evaluation-list .evaluation-list-r .u-evaluate-text {
+            font-size: 14px;
+            color: #545C63;
+            word-wrap: break-word;
+            line-height: 24px; }
+          .class-details .course-details-wrap .course-detail-cont .detail-cont-l .evaluate-wrapper .evaluation-item .evaluation-list .evaluation-list-r .lecturer-reply-box {
+            margin-top: 16px;
+            border-radius: 12px;
+            padding: 16px 12px;
+            box-sizing: border-box;
+            background-color: #767676; }
+          .class-details .course-details-wrap .course-detail-cont .detail-cont-l .evaluate-wrapper .evaluation-item .evaluation-list .evaluation-list-r .lecturer-reply-box .lecturer-reply-tit {
+            color: #14191e;
+            font-size: 14px;
+            line-height: 20px; }
+          .class-details .course-details-wrap .course-detail-cont .detail-cont-l .evaluate-wrapper .evaluation-item .evaluation-list .evaluation-list-r .lecturer-reply-box .lecturer-reply-text {
+            font-size: 12px;
+            color: #ff7504;
+            line-height: 20px; }
 
 /*# sourceMappingURL=class-detail.css.map */
