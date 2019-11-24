@@ -110,6 +110,13 @@ li {
   float: left;
 }
 
+.box-null {
+  min-height: 320px;
+  background: #787d82;
+  box-shadow:  0 2px 10px 0 rgba(135, 135, 135, 0.2);
+  border-radius: 10px;
+}
+
 //顶部导航
 .nav-wrapper {
   width: 100%;
