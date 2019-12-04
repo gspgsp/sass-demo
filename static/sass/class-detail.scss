@@ -719,10 +719,12 @@
         }
       }
       .detail-cont-r {
+        width: 340px;
         .guide-cont {
           margin-bottom: 30px;padding-bottom: 34px;
           border-bottom: 1px solid #d9dde1;
           .evaluation-but-box {
+            width: 270px;
             padding: 34px 34px 32px 34px;
             background: #e7e9ea;
             border-radius: 10px;
@@ -782,7 +784,7 @@
               .slist{
                 flex: 1;
                 text-align: center;
-                margin:0 21px 0 21px;
+                //margin:0 21px 0 21px;
                 span{
                   display: block;
                   font-size: 12px;
@@ -884,7 +886,73 @@
             color: #545C63;
             line-height: 22px;
           }
+          .recom-course {
+            margin: 0 0 22px 0;
+            .recom-course-img {
+              width: 80px;
+              height: 60px;
+              background: #6e7177;
+              border-radius: 10px;
+              float: left;
+              display: block;
+            }
+            .recom-course-info {
+              height: 72px;
+              margin-left: 90px;
+              position: relative;
+              border-bottom: 1pt solid #d9dde1;
+              box-sizing: border-box;
+              overflow: hidden;
+              .recom-course-tit {
+                display: block;
+                padding-top: 4px;
+                margin-bottom: 8px;
+                font-size: 14px;
+                color: #6d73ff;
+                line-height: 24px;
+                height: 24px;
+              }
+              .recom-course-tit:hover {
+                position: absolute;
+                color: #1C1F21;
+                overflow: hidden;
+                height: auto;
+                max-height: 52px;
+                white-space: initial;
+                background: #F8FCFC;
+                z-index: 9;
+              }
+              .recom-course-card-info {
+                color: #545C63;
+                font-size: 12px;
+                .recom-course-card-ty {
+                  margin-left: 20px;
+                  margin-right: 34px;
+                }
+                .icon-set_sns {
+                  position: relative;
+                }
+                .icon-set_sns:before {
+                  content: "";
+                  width: 12px;
+                  height: 14px;
+                  top: 2px;
+                  left: -14px;
+                  position: absolute;
+                  background-image: url("../images/ren.png");
+                  background-size: 100%;
+                  background-repeat: no-repeat;
+                }
+              }
+            }
+            //.recom-course-info:last-child {
+            //  border-bottom: none;
+            //}
+          }
         }
+      }
+      .detail-cont-r > .guide-cont:last-child {
+        border-bottom: none;
       }
     }
     .course-des-box {
@@ -1015,6 +1083,71 @@
             border-radius: 10px;
           }
         }
+    }
+  }
+}
+
+.fixed-top-wrap {
+  width: 100%;
+  height: 66px;
+  position: fixed;
+  top: 0;
+  box-shadow: 0 4px 13px 2px rgba(71, 71, 71, 0.1);
+  text-align: center;
+  z-index: 9;
+  .fixed-tit {
+    max-width: 319px;
+    line-height: 66px;
+    font-weight: bold;
+    color: #0e0a13;
+    position: absolute;
+    left: 40px;
+  }
+  .fixed-nav-cont {
+    margin: 0 20px;
+    display: inline-block;
+    li{
+      float: left;
+      margin-right: 60px;
+      a{
+        height: 66px;
+        line-height: 66px;
+        color: #93999f;
+        font-size: 16px;
+        box-sizing: border-box;
+        border-bottom: 4px solid #FFFFFF;
+        display: block;
+      }
+      .fixed-nav-a {
+        color: #81d8d0;
+        border-bottom: 4px solid #81d8d0;
+      }
+    }
+    li:last-child {
+      margin-right: 0;
+    }
+  }
+  .fixed-buy-box {
+    position: absolute;
+    right: 40px;
+    top: 0;
+    .fiexd-price {
+      line-height: 66px;
+      font-size: 16px;
+      margin-right: 25px;
+      color: #ff5900;
+    }
+    .fixed-buy-but {
+      min-width: 100px;
+      padding: 0 20px;
+      height: 34px;
+      line-height: 34px;
+      text-align: center;
+      font-size: 14px;
+      color: #FFFFFF;
+      background: #ff9900;
+      border-radius: 16px;
+      box-sizing: border-box;
     }
   }
 }

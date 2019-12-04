@@ -117,6 +117,37 @@ li {
   border-radius: 10px;
 }
 
+.cont-s-wd {
+  width: 1100px;
+}
+
+.cont-wd-1060 {
+  width: 1060px;
+}
+
+.select-none {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.flex-top {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.sc-bold {
+  font-family: PingFang-SC-Bold;
+}
+
+.c-pri {
+  color: #FF1818;
+}
+
+.c-orange {
+  color: #ffe21f;
+}
+
 //顶部导航
 .nav-wrapper {
   width: 100%;

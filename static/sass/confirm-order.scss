@@ -1,0 +1,274 @@
+@charset "utf-8";
+@import "theme";
+
+.confirm-order {
+  .shop-car-top {
+    width: 100%;
+    height: 178px;
+    background-image: url("../images/pay-bg.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  .top-cont {
+    margin: 0 auto;
+    padding-top: 40px;
+  }
+
+  .cart-tit {
+    line-height: 28px;
+    font-size: 28px;
+    font-weight: 400;
+    color: #93999f;
+  }
+
+  .history-tit {
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #9ca0a4;
+  }
+
+
+
+  .commodity-wrap {
+    margin: -64px auto 0 auto;
+    border-radius: 6px;
+  }
+  .com-head {
+    border-radius: 6px 6px 0px 0px;
+    height: 64px;
+    p{
+      padding-left: 58px;
+      line-height: 64px;
+      font-size: 14px;
+      color: #4D555D;
+    }
+  }
+  .course-list {
+    padding: 32px 0;
+    background: #0459f970;
+    border-bottom: 1px solid #ff7504;
+  }
+  .course-list:last-child{
+    border-bottom: none;
+  }
+
+  .course-img {
+    width: 160px;
+    height: 98px;
+    margin-left: 40px;
+    img{
+      width: 100%;
+      height: 100%;
+      display: block;
+      border-radius: 6px;
+    }
+  }
+
+  .course-info {
+    margin-left: 16px;
+    .course-tit {
+      width: 450px;
+      line-height: 40px;
+      font-size: 16px;
+      color: #1C1F21;
+    }
+  }
+
+  .price-cont {
+    float: right;
+    margin-right: 210px;
+  }
+  .course-price {
+    line-height: 98px;/*和图片高度一致*/
+    font-size: 14px;
+    color: #F01414 !important;
+  }
+
+  .discount-wrap {
+    margin: 0 auto;
+  }
+  .discount-but {
+    margin-top: 30px;
+    margin-bottom: 25px;
+    position: relative;
+    .dis-tit {
+      font-size: 14px;
+      color: #07111B;
+    }
+    .dis-img {
+      width: 16px;
+      height: 10px;
+      cursor: pointer;
+      margin-left: 10px;
+      transition: linear .2s;
+    }
+    .dis-hit {
+      position: absolute;
+      display: block;
+      right: 0;
+      bottom: 0;
+      color: #93999f;
+      font-size: 12px;
+      .dis-hit-box {
+        position: absolute;
+        top: 30px;
+        left: -120px;
+        width: 206px;
+        padding: 10px;
+        background: #FFFFFF;
+        box-shadow: 0 0 16px 0 rgba(7, 17, 27, 0.2);
+        border-radius: 6px;
+        z-index: 6;
+        display: none;
+      }
+      .dis-hit-box:after{
+        content: '';
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        border-bottom: 12px solid #ff7504;
+        width: 0;
+        position: absolute;
+        top: -10px;
+        right: 70px;
+
+      }
+    }
+    .dis-hit:hover .dis-hit-box{
+      display: block;
+    }
+  }
+
+  .discount-item {
+    .discount-null {
+      font-size: 14px;
+      color: $sub-cl;
+      padding-bottom: 22px;
+    }
+  }
+  .discount-item-cont {
+    margin-left: -44px;
+  }
+  .discount-list {
+    width: 231px;
+    height: 112px;
+    background-image: url("../images/c-quan.png");
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    //justify-content:  space-between;
+    cursor: pointer;
+    float: left;
+    margin-left: 44px;
+    margin-bottom: 44px;
+    position: relative;
+
+  }
+  .cont-info {
+    margin-left: 30px;
+  }
+  .dis-price {
+    color: #ff9900;
+    font-size: 12px;
+  }
+  .price-fz {
+    font-size: 24px;
+    margin-right: 5px;
+  }
+  .dis-info {
+    font-size: 12px;
+    line-height: 12px;
+    color: #81d8d0;
+    p{
+      max-width: 170px;
+      margin-top: 10px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+  }
+  .radio-inp {
+    position: absolute;
+    top: 18px;
+    right: 18px;
+  }
+  .check_img {
+    margin-right:8px;
+  }
+  .checkbox[type=radio] + s{
+    width: 16px;
+    height: 16px;
+    opacity: 0.5;
+    background-image: url("../images/dis-radio-icon.png");
+  }
+  .checkbox[type=radio]:checked + s{
+    opacity: 1;
+    background-image: url("../images/dis-radio-icon.png");
+  }
+
+  .pay-wrap {
+    padding-top: 30px;
+    border-top: 1px solid #d9dde1;
+    position: relative;
+  }
+
+  .pay-cont {
+    float: right;
+  }
+
+  .pay-info-list{
+    font-size: 14px;
+    color: #707B89;
+    margin-bottom: 16px;
+    p{
+      width: 200px;
+      text-align: right;
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    .pay-r {
+      width: 140px;
+      text-align: right;
+    }
+
+    .pay-price {
+      font-size: 24px;
+    }
+  }
+
+  .acc-p {
+    font-size: 12px;
+    color: #4DF2FF;
+    text-align: right;
+  }
+
+  .pay-sub-but {
+    width: 140px;
+    height: 46px;
+    line-height: 46px;
+    display: block;
+    float: right;
+    text-align: center;
+    margin-top: 35px;
+    color: #FFFFFF;
+    background: rgb(46, 240, 74);
+    border-radius: 25px;
+    font-size: 16px;
+  }
+
+  .hint-cont {
+    position: absolute;
+    top: 30px;
+    left: 18px;
+    img{
+      width: 16px;
+      height: 16px;
+    }
+    p{
+      margin-left: 5px;
+      font-size: 14px;
+    }
+  }
+}

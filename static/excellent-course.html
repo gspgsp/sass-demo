@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./css/public.css">
+    <link rel="stylesheet" href="./css/excellent-course.css">
+</head>
+<body>
+<div class="excellent-course">
+    <div class="excellent-course-banner align-center" style="background-image: url('./images/boutique-bac.png')">
+        <div class="clear">
+            <div class="course-type-tit clear">
+                <div>
+                    <p>贝</p>
+                    <span>/</span>
+                    <p>加</p>
+                    <span>/</span>
+                    <p>尔</p>
+                    <span>/</span>
+                    <p>湖</p>
+                </div>
+            </div>
+            <div class="course-sub clear">
+                <p>牛</p>
+                <span></span>
+                <p>牛</p>
+                <span></span>
+                <p>牛</p>
+                <p class="course-tit-line"></p>
+                <p>牛</p>
+                <span></span>
+                <p>牛</p>
+                <span></span>
+                <p>牛</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="course-nav-warper">
+        <div class="course-nav cont-wd">
+            <div class="course-nav-cont clear">
+                <div class="course-nav-tit">方向:</div>
+                <ul class="course-nav-item clear">
+                    <li><a href="">全部</a></li>
+                    <li class="more-nav-but">
+                        <a href="#" class="more-nav-box course-nav-item-act clear">
+                            <span>最具权威的编程语言</span>
+                            <span class="n-more-icon"></span>
+                        </a>
+                        <div class="n-more-sel select-none">
+                            <div class="n-more-sel-top clear">
+                                <span class="f-l white-space">最具权威的编程语言</span>
+                                <img src="./images/more-icon.png" class="f-l" alt="">
+                            </div>
+                            <div class="select-nav-list">
+                                <a href="" class="select-nav-a white-space">最具权威的编程语言</a>
+                                <a href="">最具权威的编程语言</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="">Matlab</a></li>
+                    <li><a href="">Java</a></li>
+                    <li><a href="">Php</a></li>
+                    <li><a href="">Golang</a></li>
+                    <li><a href="">Perl</a></li>
+                    <li><a href="">Python</a></li>
+                    <li><a href="">Lua</a></li>
+                    <li><a href="">C++</a></li>
+                </ul>
+            </div>
+            <div class="course-nav-cont clear">
+                <div class="course-nav-tit">难度:</div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<script src="js/jquery.js"></script>
+<script>
+    $(function () {
+        $('.more-nav-but').hover(function () {
+            $('.n-more-sel').hide();
+            $(this).find('.n-more-sel').show()
+        }, function () {
+            $('.n-more-sel').hide()
+        })
+
+        $('.select-nav-list a').click(function () {
+            $(this).parents('.n-more-sel').hide()
+        })
+
+        $('.n-more-sel-top').click(function () {
+            $(this).parents('.n-more-sel').hide()
+        })
+    })
+</script>
+
+</body>
+</html>

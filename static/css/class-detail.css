@@ -572,148 +572,203 @@
         font-weight: 400;
         color: #14191e;
         border-bottom: 1px solid #d9dde1; }
-    .class-details .course-details-wrap .course-detail-cont .detail-cont-r .guide-cont {
-      margin-bottom: 30px;
-      padding-bottom: 34px;
-      border-bottom: 1px solid #d9dde1; }
-      .class-details .course-details-wrap .course-detail-cont .detail-cont-r .guide-cont .evaluation-but-box {
-        padding: 34px 34px 32px 34px;
-        background: #e7e9ea;
-        border-radius: 10px;
-        position: relative; }
-        .class-details .course-details-wrap .course-detail-cont .detail-cont-r .guide-cont .evaluation-but-box .scoreitem {
-          margin-bottom: 16px;
-          padding-bottom: 16px;
-          border-bottom: 1px solid #787d82; }
-          .class-details .course-details-wrap .course-detail-cont .detail-cont-r .guide-cont .evaluation-but-box .scoreitem p {
-            font-family: Arial;
-            font-weight: 400;
-            text-align: center;
-            font-size: 40px;
-            line-height: 40px;
-            color: #673AB7; }
-          .class-details .course-details-wrap .course-detail-cont .detail-cont-r .guide-cont .evaluation-but-box .scoreitem .graded-num-box {
-            margin: 10px 0 12px 0;
-            display: flex;
-            display: -webkit-flex;
-            align-items: center;
-            -webkit-align-items: center;
-            justify-content: center; }
-            .class-details .course-details-wrap .course-detail-cont .detail-cont-r .guide-cont .evaluation-but-box .scoreitem .graded-num-box img {
-              width: 12px;
-              height: 12px;
-              display: block;
-              float: left;
-              margin-left: 4px; }
-            .class-details .course-details-wrap .course-detail-cont .detail-cont-r .guide-cont .evaluation-but-box .scoreitem .graded-num-box img:first-child {
-              margin-left: 0; }
-          .class-details .course-details-wrap .course-detail-cont .detail-cont-r .guide-cont .evaluation-but-box .scoreitem .num {
-            font-size: 12px;
-            position: absolute;
-            top: 16px;
-            right: 16px; }
-          .class-details .course-details-wrap .course-detail-cont .detail-cont-r .guide-cont .evaluation-but-box .scoreitem .want-evaluate-but {
-            display: block;
-            width: 106px;
-            margin: 0 auto;
-            padding: 8px 0;
-            font-size: 12px;
-            color: #ff9900;
-            text-align: center;
-            line-height: 12px;
-            box-sizing: border-box;
-            border: 1px solid #ff5900;
-            border-radius: 14px; }
-        .class-details .course-details-wrap .course-detail-cont .detail-cont-r .guide-cont .evaluation-but-box .itemlist {
-          display: flex; }
-          .class-details .course-details-wrap .course-detail-cont .detail-cont-r .guide-cont .evaluation-but-box .itemlist .slist {
-            flex: 1;
-            text-align: center;
-            margin: 0 21px 0 21px; }
-            .class-details .course-details-wrap .course-detail-cont .detail-cont-r .guide-cont .evaluation-but-box .itemlist .slist span {
-              display: block;
-              font-size: 12px;
-              color: #FF5D46;
-              margin-bottom: 10px; }
-            .class-details .course-details-wrap .course-detail-cont .detail-cont-r .guide-cont .evaluation-but-box .itemlist .slist em {
-              font-size: 16px;
-              color: #ff5900;
-              font-style: initial;
-              margin-right: 5px; }
-      .class-details .course-details-wrap .course-detail-cont .detail-cont-r .guide-cont .h3 {
-        font-size: 16px;
-        color: #07111B;
-        margin-bottom: 12px; }
-      .class-details .course-details-wrap .course-detail-cont .detail-cont-r .guide-cont .try-see-cont {
-        width: 338px;
-        height: 200px;
-        border-radius: 10px;
-        overflow: hidden;
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        position: relative; }
-        .class-details .course-details-wrap .course-detail-cont .detail-cont-r .guide-cont .try-see-cont .mask {
-          width: 100%;
-          height: 100%;
-          position: absolute;
-          top: 0;
-          left: 0;
-          background: rgba(13, 14, 14, 0.65);
+    .class-details .course-details-wrap .course-detail-cont .detail-cont-r {
+      width: 340px; }
+      .class-details .course-details-wrap .course-detail-cont .detail-cont-r .guide-cont {
+        margin-bottom: 30px;
+        padding-bottom: 34px;
+        border-bottom: 1px solid #d9dde1; }
+        .class-details .course-details-wrap .course-detail-cont .detail-cont-r .guide-cont .evaluation-but-box {
+          width: 270px;
+          padding: 34px 34px 32px 34px;
+          background: #e7e9ea;
           border-radius: 10px;
-          z-index: 1; }
-        .class-details .course-details-wrap .course-detail-cont .detail-cont-r .guide-cont .try-see-cont .try-see-icon {
-          width: 100%;
-          height: 100%;
-          padding-top: 64px;
-          cursor: pointer;
-          position: absolute;
-          z-index: 2; }
-          .class-details .course-details-wrap .course-detail-cont .detail-cont-r .guide-cont .try-see-cont .try-see-icon img {
-            width: 42px;
-            height: 42px;
-            background: white;
-            border-radius: 50%;
-            display: block;
-            margin: 0 auto; }
-          .class-details .course-details-wrap .course-detail-cont .detail-cont-r .guide-cont .try-see-cont .try-see-icon p {
-            margin-top: 18px;
-            text-align: center;
-            font-size: 14px;
-            line-height: 14px;
-            color: #FFFFFF; }
-      .class-details .course-details-wrap .course-detail-cont .detail-cont-r .guide-cont .g-lecturer-info {
-        margin-bottom: 20px; }
-        .class-details .course-details-wrap .course-detail-cont .detail-cont-r .guide-cont .g-lecturer-info .g-lecturer-img {
-          width: 60px;
-          height: 60px;
-          border: 2px solid rgba(255, 255, 255, 0.7);
-          box-shadow: 0px 2px 6px 0px rgba(20, 14, 32, 0.28);
-          border-radius: 50%;
-          margin-right: 10px; }
-          .class-details .course-details-wrap .course-detail-cont .detail-cont-r .guide-cont .g-lecturer-info .g-lecturer-img img {
+          position: relative; }
+          .class-details .course-details-wrap .course-detail-cont .detail-cont-r .guide-cont .evaluation-but-box .scoreitem {
+            margin-bottom: 16px;
+            padding-bottom: 16px;
+            border-bottom: 1px solid #787d82; }
+            .class-details .course-details-wrap .course-detail-cont .detail-cont-r .guide-cont .evaluation-but-box .scoreitem p {
+              font-family: Arial;
+              font-weight: 400;
+              text-align: center;
+              font-size: 40px;
+              line-height: 40px;
+              color: #673AB7; }
+            .class-details .course-details-wrap .course-detail-cont .detail-cont-r .guide-cont .evaluation-but-box .scoreitem .graded-num-box {
+              margin: 10px 0 12px 0;
+              display: flex;
+              display: -webkit-flex;
+              align-items: center;
+              -webkit-align-items: center;
+              justify-content: center; }
+              .class-details .course-details-wrap .course-detail-cont .detail-cont-r .guide-cont .evaluation-but-box .scoreitem .graded-num-box img {
+                width: 12px;
+                height: 12px;
+                display: block;
+                float: left;
+                margin-left: 4px; }
+              .class-details .course-details-wrap .course-detail-cont .detail-cont-r .guide-cont .evaluation-but-box .scoreitem .graded-num-box img:first-child {
+                margin-left: 0; }
+            .class-details .course-details-wrap .course-detail-cont .detail-cont-r .guide-cont .evaluation-but-box .scoreitem .num {
+              font-size: 12px;
+              position: absolute;
+              top: 16px;
+              right: 16px; }
+            .class-details .course-details-wrap .course-detail-cont .detail-cont-r .guide-cont .evaluation-but-box .scoreitem .want-evaluate-but {
+              display: block;
+              width: 106px;
+              margin: 0 auto;
+              padding: 8px 0;
+              font-size: 12px;
+              color: #ff9900;
+              text-align: center;
+              line-height: 12px;
+              box-sizing: border-box;
+              border: 1px solid #ff5900;
+              border-radius: 14px; }
+          .class-details .course-details-wrap .course-detail-cont .detail-cont-r .guide-cont .evaluation-but-box .itemlist {
+            display: flex; }
+            .class-details .course-details-wrap .course-detail-cont .detail-cont-r .guide-cont .evaluation-but-box .itemlist .slist {
+              flex: 1;
+              text-align: center; }
+              .class-details .course-details-wrap .course-detail-cont .detail-cont-r .guide-cont .evaluation-but-box .itemlist .slist span {
+                display: block;
+                font-size: 12px;
+                color: #FF5D46;
+                margin-bottom: 10px; }
+              .class-details .course-details-wrap .course-detail-cont .detail-cont-r .guide-cont .evaluation-but-box .itemlist .slist em {
+                font-size: 16px;
+                color: #ff5900;
+                font-style: initial;
+                margin-right: 5px; }
+        .class-details .course-details-wrap .course-detail-cont .detail-cont-r .guide-cont .h3 {
+          font-size: 16px;
+          color: #07111B;
+          margin-bottom: 12px; }
+        .class-details .course-details-wrap .course-detail-cont .detail-cont-r .guide-cont .try-see-cont {
+          width: 338px;
+          height: 200px;
+          border-radius: 10px;
+          overflow: hidden;
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+          position: relative; }
+          .class-details .course-details-wrap .course-detail-cont .detail-cont-r .guide-cont .try-see-cont .mask {
             width: 100%;
             height: 100%;
-            display: block;
-            border-radius: 50%; }
-        .class-details .course-details-wrap .course-detail-cont .detail-cont-r .guide-cont .g-lecturer-info .g-lecturer-name {
-          color: #000000;
-          font-size: 14px !important;
-          line-height: 20px;
-          letter-spacing: 2px;
-          margin-bottom: 8px;
-          max-width: 240px;
-          overflow: hidden;
-          text-overflow: ellipsis;
-          white-space: nowrap; }
-        .class-details .course-details-wrap .course-detail-cont .detail-cont-r .guide-cont .g-lecturer-info .g-lecturer-type {
-          line-height: 12px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: rgba(13, 14, 14, 0.65);
+            border-radius: 10px;
+            z-index: 1; }
+          .class-details .course-details-wrap .course-detail-cont .detail-cont-r .guide-cont .try-see-cont .try-see-icon {
+            width: 100%;
+            height: 100%;
+            padding-top: 64px;
+            cursor: pointer;
+            position: absolute;
+            z-index: 2; }
+            .class-details .course-details-wrap .course-detail-cont .detail-cont-r .guide-cont .try-see-cont .try-see-icon img {
+              width: 42px;
+              height: 42px;
+              background: white;
+              border-radius: 50%;
+              display: block;
+              margin: 0 auto; }
+            .class-details .course-details-wrap .course-detail-cont .detail-cont-r .guide-cont .try-see-cont .try-see-icon p {
+              margin-top: 18px;
+              text-align: center;
+              font-size: 14px;
+              line-height: 14px;
+              color: #FFFFFF; }
+        .class-details .course-details-wrap .course-detail-cont .detail-cont-r .guide-cont .g-lecturer-info {
+          margin-bottom: 20px; }
+          .class-details .course-details-wrap .course-detail-cont .detail-cont-r .guide-cont .g-lecturer-info .g-lecturer-img {
+            width: 60px;
+            height: 60px;
+            border: 2px solid rgba(255, 255, 255, 0.7);
+            box-shadow: 0px 2px 6px 0px rgba(20, 14, 32, 0.28);
+            border-radius: 50%;
+            margin-right: 10px; }
+            .class-details .course-details-wrap .course-detail-cont .detail-cont-r .guide-cont .g-lecturer-info .g-lecturer-img img {
+              width: 100%;
+              height: 100%;
+              display: block;
+              border-radius: 50%; }
+          .class-details .course-details-wrap .course-detail-cont .detail-cont-r .guide-cont .g-lecturer-info .g-lecturer-name {
+            color: #000000;
+            font-size: 14px !important;
+            line-height: 20px;
+            letter-spacing: 2px;
+            margin-bottom: 8px;
+            max-width: 240px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap; }
+          .class-details .course-details-wrap .course-detail-cont .detail-cont-r .guide-cont .g-lecturer-info .g-lecturer-type {
+            line-height: 12px;
+            font-size: 12px;
+            color: #4D555D; }
+        .class-details .course-details-wrap .course-detail-cont .detail-cont-r .guide-cont .guide-cont-text {
           font-size: 12px;
-          color: #4D555D; }
-      .class-details .course-details-wrap .course-detail-cont .detail-cont-r .guide-cont .guide-cont-text {
-        font-size: 12px;
-        color: #545C63;
-        line-height: 22px; }
+          color: #545C63;
+          line-height: 22px; }
+        .class-details .course-details-wrap .course-detail-cont .detail-cont-r .guide-cont .recom-course {
+          margin: 0 0 22px 0; }
+          .class-details .course-details-wrap .course-detail-cont .detail-cont-r .guide-cont .recom-course .recom-course-img {
+            width: 80px;
+            height: 60px;
+            background: #6e7177;
+            border-radius: 10px;
+            float: left;
+            display: block; }
+          .class-details .course-details-wrap .course-detail-cont .detail-cont-r .guide-cont .recom-course .recom-course-info {
+            height: 72px;
+            margin-left: 90px;
+            position: relative;
+            border-bottom: 1pt solid #d9dde1;
+            box-sizing: border-box;
+            overflow: hidden; }
+            .class-details .course-details-wrap .course-detail-cont .detail-cont-r .guide-cont .recom-course .recom-course-info .recom-course-tit {
+              display: block;
+              padding-top: 4px;
+              margin-bottom: 8px;
+              font-size: 14px;
+              color: #6d73ff;
+              line-height: 24px;
+              height: 24px; }
+            .class-details .course-details-wrap .course-detail-cont .detail-cont-r .guide-cont .recom-course .recom-course-info .recom-course-tit:hover {
+              position: absolute;
+              color: #1C1F21;
+              overflow: hidden;
+              height: auto;
+              max-height: 52px;
+              white-space: initial;
+              background: #F8FCFC;
+              z-index: 9; }
+            .class-details .course-details-wrap .course-detail-cont .detail-cont-r .guide-cont .recom-course .recom-course-info .recom-course-card-info {
+              color: #545C63;
+              font-size: 12px; }
+              .class-details .course-details-wrap .course-detail-cont .detail-cont-r .guide-cont .recom-course .recom-course-info .recom-course-card-info .recom-course-card-ty {
+                margin-left: 20px;
+                margin-right: 34px; }
+              .class-details .course-details-wrap .course-detail-cont .detail-cont-r .guide-cont .recom-course .recom-course-info .recom-course-card-info .icon-set_sns {
+                position: relative; }
+              .class-details .course-details-wrap .course-detail-cont .detail-cont-r .guide-cont .recom-course .recom-course-info .recom-course-card-info .icon-set_sns:before {
+                content: "";
+                width: 12px;
+                height: 14px;
+                top: 2px;
+                left: -14px;
+                position: absolute;
+                background-image: url("../images/ren.png");
+                background-size: 100%;
+                background-repeat: no-repeat; }
+    .class-details .course-details-wrap .course-detail-cont .detail-cont-r > .guide-cont:last-child {
+      border-bottom: none; }
   .class-details .course-details-wrap .course-des-box {
     margin-bottom: 48px; }
     .class-details .course-details-wrap .course-des-box .info-video {
@@ -823,5 +878,60 @@
         left: 0;
         z-index: 1;
         border-radius: 10px; }
+
+.fixed-top-wrap {
+  width: 100%;
+  height: 66px;
+  position: fixed;
+  top: 0;
+  box-shadow: 0 4px 13px 2px rgba(71, 71, 71, 0.1);
+  text-align: center;
+  z-index: 9; }
+  .fixed-top-wrap .fixed-tit {
+    max-width: 319px;
+    line-height: 66px;
+    font-weight: bold;
+    color: #0e0a13;
+    position: absolute;
+    left: 40px; }
+  .fixed-top-wrap .fixed-nav-cont {
+    margin: 0 20px;
+    display: inline-block; }
+    .fixed-top-wrap .fixed-nav-cont li {
+      float: left;
+      margin-right: 60px; }
+      .fixed-top-wrap .fixed-nav-cont li a {
+        height: 66px;
+        line-height: 66px;
+        color: #93999f;
+        font-size: 16px;
+        box-sizing: border-box;
+        border-bottom: 4px solid #FFFFFF;
+        display: block; }
+      .fixed-top-wrap .fixed-nav-cont li .fixed-nav-a {
+        color: #81d8d0;
+        border-bottom: 4px solid #81d8d0; }
+    .fixed-top-wrap .fixed-nav-cont li:last-child {
+      margin-right: 0; }
+  .fixed-top-wrap .fixed-buy-box {
+    position: absolute;
+    right: 40px;
+    top: 0; }
+    .fixed-top-wrap .fixed-buy-box .fiexd-price {
+      line-height: 66px;
+      font-size: 16px;
+      margin-right: 25px;
+      color: #ff5900; }
+    .fixed-top-wrap .fixed-buy-box .fixed-buy-but {
+      min-width: 100px;
+      padding: 0 20px;
+      height: 34px;
+      line-height: 34px;
+      text-align: center;
+      font-size: 14px;
+      color: #FFFFFF;
+      background: #ff9900;
+      border-radius: 16px;
+      box-sizing: border-box; }
 
 /*# sourceMappingURL=class-detail.css.map */
