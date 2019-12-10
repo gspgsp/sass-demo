@@ -165,4 +165,210 @@
       }
     }
   }
+
+  .course-list-wraper {
+    margin: 0 auto;
+  }
+  .course-list-head {
+    position: relative;
+  }
+  .recommend-nav {
+    margin: 22px 0 28px 0;
+    li{
+      float: left;
+      margin-right: 18px;
+      a {
+        display: block;
+        line-height: 24px;
+        height: 24px;
+        padding: 0 12px;
+        border-radius: 12px;
+        color: #545C63;
+      }
+      .recommend-nav-act {
+        color: #fefefe !important;
+        background: #2B99A3 !important;
+      }
+    }
+  }
+  .recommend-pay-nav {
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    li{
+      float: left;
+      a{
+        padding-top: 7px;
+        padding-bottom: 7px;
+        display: block;
+        text-align: center;
+        font-size: 12px;
+        line-height: 12px;
+        color: #ff7504;
+        border: 1px solid #ff7504;
+        box-sizing: border-box;
+
+      }
+      .free-nav {
+        padding-left: 18px;
+        padding-right: 10px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+      }
+      .recommend-pay-nav-act {
+        background: #ff9900;
+        color: #FFFFFF;
+      }
+      .excellent-nav {
+        padding-left: 10px;
+        padding-right: 18px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+      }
+    }
+  }
+
+  .course-list-cont {
+    overflow: hidden;
+  }
+  .moco-course-list {
+    margin-left: -32px;
+    float: left;
+  }
+  .excellent-course-list {
+    width: 378px;
+    overflow: hidden;
+    float: left;
+    margin-left: 32px;
+    margin-bottom: 36px;
+    position: relative;
+    .course-list-img{
+      width: 100%;
+      height: 230px;
+      display: block;
+      border-radius: 15px;
+    }
+    .member-free {
+      width: 80px;
+      height: 28px;
+      position: absolute;
+      z-index: 9;
+      border-radius: 15px 0 15px 0;
+      background: #ff9900;
+      line-height: 28px;
+      text-align: center;
+      color: #FFFFFF;
+      top: 0;
+      left: 0;
+    }
+    .course-info-container {
+      margin: 0 4px;
+    }
+    .course-tit-cont {
+      margin: 16px 0 20px 0;
+    }
+    .course-card-container-tit {
+      display: block;
+      cursor: pointer;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      margin: 16px 0 18px 0;
+      color: #07111B;
+      height: 18px;
+      line-height: 18px;
+    }
+    .course-card-container-tit:hover{
+      color: $sub-theme;
+    }
+    .course-list-info {
+      display: flex;
+      justify-content: space-between;
+    }
+    .course-info-text {
+      line-height: 14px;
+      font-size: 12px;
+      color: #93999f;
+      .course-rank {
+        margin-right: 20px;
+      }
+      .lean-num {
+        margin: 0 20px;
+      }
+      .course-stu-num {
+        .people-num{
+          width: 14px;
+          height: 14px;
+          display: block;
+          float: left;
+        }
+        span{
+          line-height: 14px;
+          margin-left: 3px;
+          float: left;
+          display: block;
+        }
+      }
+    }
+    .operation-cont {
+      color: #93999f;
+      font-size: 12px;
+      line-height: 14px;
+      cursor: pointer;
+    }
+    .collect-cont {
+      position: relative;
+      .collect-img {
+        width: 14px;
+        height: 14px;
+        background-image: url("../images/sc-star.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        margin-right: 5px;
+      }
+    }
+    .collect-cont:hover{
+      color: $default-cl;
+    }
+    .collect-cont-act {
+      cursor: pointer;
+      color: $theme-cl;
+      .collect-img:hover {
+        background-image: url("../images/collect-cont-hov-icon.png");
+      }
+    }
+    .collect-line {
+      width: 1px;
+      height: 12px;
+      background: #93999f;
+      margin: 1px 12px 0 12px;
+    }
+    .shop-car {
+      cursor: pointer;
+      line-height: 14px;
+    }
+    .shop-car:hover{
+      color: $default-cl;
+    }
+    .course-price-cont {
+      height: 18px;
+      margin-top: 12px;
+    }
+    .course-price {
+      line-height: 18px;
+      color: #6b95ff;
+      font-size: 12px;
+      margin-right: 10px;
+    }
+    .time-limit-box {
+      padding: 0 5px;
+      height: 18px;
+      line-height: 18px;
+      text-align: center;
+      background:linear-gradient(75deg, rgb(224, 125, 240),rgba(255,130,18,1), rgb(50, 113, 255));
+      border-radius: 4px;
+      color: #FFFFFF;
+      font-size: 10px;
+    }
+  }
 }

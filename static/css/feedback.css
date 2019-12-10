@@ -1,0 +1,59 @@
+.wrap {
+  background: #ffffff; }
+
+.feedback-wrap .feedback-box {
+  margin: 40px auto 0 auto; }
+  .feedback-wrap .feedback-box .feedback-l {
+    width: 824px;
+    float: left; }
+    .feedback-wrap .feedback-box .feedback-l .feedback-tit {
+      font-size: 18px;
+      color: #ff7504;
+      border-bottom: 1px solid #81d8d0;
+      padding-bottom: 16px; }
+    .feedback-wrap .feedback-box .feedback-l .feedback-cont {
+      margin: 0 20px; }
+      .feedback-wrap .feedback-box .feedback-l .feedback-cont .feedback-type {
+        margin: 22px 0 26px 0; }
+        .feedback-wrap .feedback-box .feedback-l .feedback-cont .feedback-type .feedback-type-list {
+          margin-right: 56px; }
+        .feedback-wrap .feedback-box .feedback-l .feedback-cont .feedback-type .feedback-type-list:last-child {
+          margin-right: 0; }
+        .feedback-wrap .feedback-box .feedback-l .feedback-cont .feedback-type .checkbox[type=radio] + s {
+          width: 14px;
+          height: 14px;
+          display: inline-block;
+          background-image: url("../images/radio-icon.png");
+          background-repeat: no-repeat;
+          background-size: 100%; }
+        .feedback-wrap .feedback-box .feedback-l .feedback-cont .feedback-type .checkbox[type=radio]:checked + s {
+          background-image: url("../images/radio-icon-a.png"); }
+        .feedback-wrap .feedback-box .feedback-l .feedback-cont .feedback-type .gender-t {
+          margin-left: 6px;
+          font-size: 14px;
+          color: #ff7504; }
+      .feedback-wrap .feedback-box .feedback-l .feedback-cont .textarea-box {
+        position: relative; }
+        .feedback-wrap .feedback-box .feedback-l .feedback-cont .textarea-box textarea {
+          width: 780px;
+          height: 148px;
+          display: block;
+          padding: 10px 20px;
+          border: 1pt solid #FF5D46;
+          border-radius: 10px;
+          outline: none;
+          resize: none;
+          box-sizing: border-box;
+          font-size: 14px;
+          color: #ff9900; }
+        .feedback-wrap .feedback-box .feedback-l .feedback-cont .textarea-box .text-num {
+          position: absolute;
+          right: 14px;
+          bottom: 14px;
+          font-size: 12px;
+          color: #81d8d0; }
+  .feedback-wrap .feedback-box .feedback-r {
+    width: 358px;
+    float: right; }
+
+/*# sourceMappingURL=feedback.css.map */

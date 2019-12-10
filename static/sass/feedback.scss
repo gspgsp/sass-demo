@@ -1,0 +1,77 @@
+@charset "utf-8";
+@import "theme";
+
+.wrap{
+  background: $default-bac;
+}
+
+.feedback-wrap {
+  .feedback-box {
+    margin: 40px auto 0 auto;
+    .feedback-l{
+      width: 824px;
+      float: left;
+      .feedback-tit {
+        font-size: 18px;
+        color: #ff7504;
+        border-bottom: 1px solid #81d8d0;
+        padding-bottom: 16px;
+      }
+      .feedback-cont {
+        margin: 0 20px;
+        .feedback-type {
+          margin: 22px 0 26px 0;
+          .feedback-type-list{
+            margin-right: 56px;
+          }
+          .feedback-type-list:last-child{
+            margin-right: 0;
+          }
+          .checkbox[type=radio] + s {
+            width: 14px;
+            height: 14px;
+            display: inline-block;
+            background-image: url("../images/radio-icon.png");
+            background-repeat: no-repeat;
+            background-size: 100%;
+          }
+          .checkbox[type=radio]:checked + s {
+            background-image: url("../images/radio-icon-a.png");
+          }
+          .gender-t {
+            margin-left: 6px;
+            font-size: 14px;
+            color: #ff7504;
+          }
+        }
+        .textarea-box{
+          position: relative;
+          textarea {
+            width: 780px;
+            height: 148px;
+            display: block;
+            padding: 10px 20px;
+            border: 1pt solid #FF5D46;
+            border-radius: 10px;
+            outline: none;
+            resize:none;
+            box-sizing: border-box;
+            font-size: 14px;
+            color: #ff9900;
+          }
+          .text-num {
+            position: absolute;
+            right: 14px;
+            bottom: 14px;
+            font-size: 12px;
+            color: #81d8d0;
+          }
+        }
+      }
+    }
+    .feedback-r {
+      width: 358px;
+      float: right;
+    }
+  }
+}
