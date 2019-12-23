@@ -52,8 +52,78 @@
           bottom: 14px;
           font-size: 12px;
           color: #81d8d0; }
+      .feedback-wrap .feedback-box .feedback-l .feedback-cont .image-upload-box {
+        margin: 40px 0; }
+        .feedback-wrap .feedback-box .feedback-l .feedback-cont .image-upload-box .el-upload--picture-card {
+          width: 82px;
+          height: 82px;
+          line-height: 84px; }
+        .feedback-wrap .feedback-box .feedback-l .feedback-cont .image-upload-box .el-upload-list--picture-card .el-upload-list__item {
+          width: 82px;
+          height: 82px; }
+        .feedback-wrap .feedback-box .feedback-l .feedback-cont .image-upload-box .image-upload-hint {
+          margin-top: 20px;
+          font-size: 12px;
+          line-height: 24px; }
+      .feedback-wrap .feedback-box .feedback-l .feedback-cont .contact-inp {
+        width: 100%;
+        height: 40px;
+        border: 1px solid #cc4ad9;
+        border-radius: 10px;
+        box-sizing: border-box;
+        outline: none;
+        resize: none;
+        text-indent: 20px;
+        display: block; }
+      .feedback-wrap .feedback-box .feedback-l .feedback-cont .page-address-box {
+        width: 780px;
+        padding: 18px 0 20px 0;
+        margin: 40px 0 32px 0;
+        background: rgba(217, 208, 199, 0.95);
+        border: 1px solid #ff5900;
+        border-radius: 10px; }
+        .feedback-wrap .feedback-box .feedback-l .feedback-cont .page-address-box .page-address-tit {
+          margin-left: 20px;
+          font-size: 14px;
+          color: #93999f; }
+        .feedback-wrap .feedback-box .feedback-l .feedback-cont .page-address-box .page-address-inp {
+          width: 740px;
+          height: 40px;
+          display: block;
+          outline: none;
+          text-indent: 20px;
+          border: 1px solid #cc4ad9;
+          border-radius: 5px;
+          margin: 14px auto 0 auto; }
+      .feedback-wrap .feedback-box .feedback-l .feedback-cont .feedback-sub-box {
+        width: 100%;
+        margin: 40px 0 40px 0; }
+        .feedback-wrap .feedback-box .feedback-l .feedback-cont .feedback-sub-box .feedback-sub-but {
+          display: block;
+          width: 120px;
+          height: 40px;
+          float: right;
+          text-align: center;
+          line-height: 40px;
+          border-radius: 20px;
+          font-size: 14px; }
   .feedback-wrap .feedback-box .feedback-r {
     width: 358px;
-    float: right; }
+    background: #f2f7f7;
+    float: right;
+    padding: 14px 0 46px 0; }
+    .feedback-wrap .feedback-box .feedback-r .common-box {
+      padding-left: 16px; }
+      .feedback-wrap .feedback-box .feedback-r .common-box .common-tit {
+        color: #ff5900;
+        font-size: 18px;
+        margin-bottom: 18px; }
+      .feedback-wrap .feedback-box .feedback-r .common-box a {
+        display: block;
+        font-size: 14px;
+        margin: 5px 0 5px 0;
+        color: #e4a8f2; }
+    .feedback-wrap .feedback-box .feedback-r .common-box a:hover {
+      color: #81D8D0; }
 
 /*# sourceMappingURL=feedback.css.map */

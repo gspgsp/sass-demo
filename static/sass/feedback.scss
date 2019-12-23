@@ -67,11 +67,95 @@
             color: #81d8d0;
           }
         }
+        .image-upload-box {
+          margin: 40px 0;
+          .el-upload--picture-card{
+            width: 82px;
+            height: 82px;
+            line-height: 84px;
+          }
+          .el-upload-list--picture-card .el-upload-list__item{
+            width: 82px;
+            height: 82px;
+          }
+          .image-upload-hint {
+            margin-top: 20px;
+            font-size: 12px;
+            line-height: 24px;
+          }
+        }
+        .contact-inp {
+          width: 100%;
+          height: 40px;
+          border: 1px solid rgb(204, 74, 217);
+          border-radius: 10px;
+          box-sizing: border-box;
+          outline: none;
+          resize: none;
+          text-indent: 20px;
+          display: block;
+        }
+        .page-address-box {
+          width: 780px;
+          padding: 18px 0 20px 0;
+          margin: 40px 0 32px 0;
+          background: rgba(217, 208, 199, 0.95);
+          border: 1px solid #ff5900;
+          border-radius: 10px;
+          .page-address-tit {
+            margin-left: 20px;
+            font-size: 14px;
+            color: #93999f;
+          }
+          .page-address-inp {
+            width: 740px;
+            height: 40px;
+            display: block;
+            outline: none;
+            text-indent: 20px;
+            border: 1px solid #cc4ad9;
+            border-radius: 5px;
+            margin: 14px auto 0 auto;
+          }
+        }
+        .feedback-sub-box {
+          width: 100%;
+          margin: 40px 0 40px 0;
+          .feedback-sub-but {
+            display: block;
+            width: 120px;
+            height: 40px;
+            float: right;
+            text-align: center;
+            line-height: 40px;
+            border-radius: 20px;
+            font-size: 14px;
+          }
+        }
       }
     }
     .feedback-r {
       width: 358px;
+      background: #f2f7f7;
       float: right;
+      padding: 14px 0 46px 0;
+      .common-box {
+        padding-left: 16px;
+        .common-tit {
+          color: #ff5900;
+          font-size: 18px;
+          margin-bottom: 18px;
+        }
+        a{
+          display: block;
+          font-size: 14px;
+          margin: 5px 0 5px 0;
+          color: #e4a8f2;
+        }
+      }
+      .common-box a:hover{
+        color: $theme-cl;
+      }
     }
   }
 }

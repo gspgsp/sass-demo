@@ -5,6 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--<link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">-->
     <link rel="stylesheet" href="./css/public.css">
     <link rel="stylesheet" href="./css/feedback.css">
     <title>Document</title>
@@ -40,14 +41,71 @@
                     <p class="text-num"><span id="text-count">0</span>/500</p>
                 </div>
                 <div class="image-upload-box">
-                    上传
+                    <div>
+                        <el-upload
+                                action="https://jsonplaceholder.typicode.com/posts/"
+                                list-type="picture-card"
+                                :limit="5"
+                                :on-preview="handlePictureCardPreview"
+                                :on-remove="handleRemove">
+                            <i class="el-icon-plus"></i>
+                        </el-upload>
+                        <el-dialog :visible.sync="dialogVisible">
+                            <img width="100%" :src="dialogImageUrl" alt="">
+                        </el-dialog>
+                    </div>
+                    <p class="image-upload-hint">最多可以上传 <span class="c-pri">5</span>张图片，最多不超过<span class="c-pri">4M</span></p>
+                </div>
+                <input type="text" placeholder="请留下你的联系方式" class="contact-inp">
+                <div class="page-address-box">
+                    <p class="page-address-tit">相关页面地址</p>
+                    <input type="text" class="page-address-inp">
+                </div>
+                <div class="feedback-sub-box clear">
+                    <a href="#" class="feedback-sub-but btn-bac">提交一波</a>
                 </div>
             </div>
         </div>
         <div class="feedback-r">
-            czxvzcxv
+            <div class="common-box">
+                <p class="common-tit">常见一键</p>
+                <a href="#">哈哈哈</a>
+                <a href="#">哈哈哈</a>
+                <a href="#">哈哈哈哈</a>
+                <a href="#">在农村V吗</a>
+            </div>
         </div>
     </div>
 </div>
+<script src="js/jquery.js"></script>
+<script src="js/vue.js"></script>
+<script src="js/element.js"></script>
+<script>
+    new Vue({
+        el:".feedback-wrap",
+        data(){
+            return {
+                dialogImageUrl: '',
+                dialogVisible: false
+            }
+        },
+        methods:{
+            handleRemove(file, fileList) {
+                console.log(file, fileList);
+            },
+            handlePictureCardPreview(file) {
+                this.dialogImageUrl = file.url;
+                this.dialogVisible = true;
+            }
+        }
+    });
+
+    window.onload = function () {
+        $("#note").keyup(function () {
+            let len = this.value.length;
+            $("#text-count").text(len)
+        })
+    }
+</script>
 </body>
 </html>
