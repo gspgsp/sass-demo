@@ -294,5 +294,29 @@
     display: block;
     float: right;
     cursor: pointer; }
+  .free-classes-info .evaluation-info {
+    margin-bottom: 36px;
+    border-bottom: 1px solid #ff9900;
+    padding-bottom: 26px; }
+  .free-classes-info .evaluation-title {
+    font-size: 16px;
+    color: #ffe21f;
+    line-height: 18px; }
+  .free-classes-info .evaluation-score {
+    margin: 0 18px;
+    font-weight: bold;
+    font-size: 32px; }
+  .free-classes-info .grade-ul li {
+    float: left;
+    margin-top: 8px;
+    margin-right: 40px;
+    font-size: 14px;
+    line-height: 22px; }
+    .free-classes-info .grade-ul li span {
+      display: inline-block;
+      vertical-align: middle;
+      float: left; }
+  .free-classes-info .grade-ul li:last-child {
+    margin-right: 0; }
 
 /*# sourceMappingURL=free-course-info.css.map */

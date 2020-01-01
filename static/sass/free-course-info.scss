@@ -373,4 +373,36 @@
     float: right;
     cursor: pointer;
   }
+
+  .evaluation-info {
+    //background: #4DF2FF;
+    margin-bottom: 36px;
+    border-bottom: 1px solid #ff9900;
+    padding-bottom: 26px;
+  }
+  .evaluation-title {
+    font-size: 16px;
+    color: #ffe21f;
+    line-height: 18px;
+  }
+  .evaluation-score {
+    margin: 0 18px;
+    font-weight: bold;
+    font-size: 32px;
+  }
+  .grade-ul li{
+    float: left;
+    margin-top: 8px;
+    margin-right: 40px;
+    font-size: 14px;
+    line-height: 22px;
+    span{
+      display: inline-block;
+      vertical-align: middle;
+      float: left;
+    }
+  }
+  .grade-ul li:last-child{
+    margin-right: 0;
+  }
 }
