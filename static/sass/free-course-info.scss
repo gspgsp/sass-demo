@@ -331,4 +331,46 @@
     color: #cc4ad9;
     background: #fff077;
   }
+
+  .data-download-list {
+    border-bottom: 1px solid #ffe21f;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+  }
+  .material-type {
+    font-size: 14px;
+    color: #fff;
+    padding: 0 10px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 10px;
+    background: #ffeb3b;
+  }
+  .material-tit {
+    font-size: 16px;
+    line-height: 20px;
+    color: #07111B;
+    margin-left: 14px;
+    margin-right: 20px;
+    max-width: 500px;
+  }
+  .material-info {
+    font-size: 12px;
+    line-height: 20px;
+    color: #6864ff;
+  }
+  .material-info span:first-child {
+    margin-right: 25px;
+  }
+  .download-but {
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+    background-image: url("../images/c-xiazai.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: block;
+    float: right;
+    cursor: pointer;
+  }
 }
